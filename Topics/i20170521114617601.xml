@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521114617601" status="new">
+   <title id="title">White spaces</title>
+   <abstract id="abstract"><shortdesc id="shortdesc">In XML, the meaning of white spaces differs depending on their location. Spaces between block elements are for readability during authoring and are ignored at publishing, but spaces in <term id="a0">mixed content</term> are significant.</shortdesc> A correct and consistent use of white spaces leads to adequate processing and high-quality publications.</abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-21"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="a1">
+         <rule-statement id="a2">In <term id="a18">mixed content</term>, <action id="a3">include white spaces around inline elements, not in them</action>.</rule-statement>
+         <examplefig id="a4" judgement="good">
+            <codeblock id="a5">&lt;p&gt;Click &lt;uicontrol&gt;Ok&lt;/uicontrol&gt;.&lt;/p&gt;</codeblock>
+         </examplefig>
+         <examplefig id="a7" judgement="bad">
+            <codeblock id="a6">&lt;p&gt;Click&lt;uicontrol&gt; Ok&lt;/uicontrol&gt;.&lt;/p&gt;</codeblock>
+         </examplefig>
+         <examplefig id="a10" judgement="good">
+            <codeblock id="a8">&lt;p&gt;I love &lt;xref href="http://www.d2.com"
+  scope="external"&gt;D&lt;sup&gt;2&lt;/sup&gt;&lt;/xref&gt; and &lt;xref 
+  href="http://www.google.ca" scope="external"&gt;Google&lt;/xref&gt;.&lt;/p&gt;</codeblock>
+         </examplefig>
+         <examplefig id="a15" judgement="bad">
+            <codeblock id="a9">&lt;p&gt;I love &lt;xref href="http://www.d2.com"
+  scope="external"&gt;D&lt;sup&gt;2 &lt;/sup&gt;&lt;/xref&gt;and &lt;xref 
+  href="http://www.google.ca" scope="external"&gt;Google&lt;/xref&gt;.&lt;/p&gt;</codeblock>
+         </examplefig>
+         <examplefig id="a20" judgement="bad"><codeblock id="a11">&lt;p&gt;I love&lt;xref href="http://www.d2.com" 
+  scope="external"&gt; D&lt;sup&gt;2&lt;/sup&gt; &lt;/xref&gt;and&lt;xref 
+  href="http://www.google.ca" scope="external"&gt; Google&lt;/xref&gt;.&lt;/p&gt;</codeblock>
+         </examplefig>
+      </rule>
+      <rule id="a25">
+         <rule-statement id="a26"><action id="a12">Do not insert white spaces at the beginning or at the end of blocks</action>.</rule-statement>
+         <justification id="a27"><ul id="a28"><li id="a29">Changes in white spaces will trigger translation for the block.</li>
+         <li id="a30">HTML ignores theses spaces, but some PDF and RTF rendering engines don't. We've seen publications where random paragraphs started with spaces.</li></ul></justification>
+         <examplefig id="a31" judgement="good"><codeblock id="a500">&lt;cmd&gt;Click &lt;uicontrol&gt;Ok&lt;/uicontrol&gt;.&lt;/cmd&gt;</codeblock></examplefig>
+         <examplefig id="a32" judgement="bad"><codeblock id="a501">&lt;cmd&gt; Click &lt;uicontrol&gt;Ok&lt;/uicontrol&gt;.&lt;/cmd&gt;</codeblock></examplefig>
+      </rule>
+      <rule id="b33">
+         <rule-statement id="b34">When <if-condition id="a13">spaces are required before or after punctuation marks</if-condition>, <action id="a14">use the entity for non-breakable spaces (&amp;#160;) instead of regular spaces</action>.</rule-statement>
+         <justification id="a35">Non-breakable spaces ensure that line breaks don't appear where they shouldn't.</justification>
+         <examplefig id="b2" judgement="good">
+         <codeblock id="b3">&lt;p&gt;Bonjour&amp;#160;!&lt;/p&gt;
+&lt;p&gt;Les éléments suivants&amp;#160;:&lt;/p&gt;</codeblock>
+         </examplefig>
+         <examplefig id="b7" judgement="good">
+            <desc id="a17">As per best practices, this example uses the &lt;q&gt; element for quotes. When &lt;q&gt; is used, the transformation process is expected to handle quotation marks and the spaces immediately inside them, leaving one less thing to worry about for writers and translators.</desc>
+         <codeblock id="b8">&lt;p&gt;Le professeur demanda&amp;#160;:
+&lt;q&gt;Quelle est la capitale de l'Australie&amp;#160;?&lt;/q&gt;&lt;/p&gt;</codeblock>
+         </examplefig>
+      </rule>
+      <rule id="b40">
+         <rule-statement id="a16">Do not add any white spaces manually immediately inside quotation elements.</rule-statement>
+         <justification id="a19"><ul id="a21"><li id="a22">The system handles white spaces automatically for different media and languages.</li><li id="a23">It is common, in some media, to show long quotes as indented text. You can't assume quoted content will actually show up with quotation marks.</li></ul></justification>
+         <examplefig id="a24" judgement="good">
+            <codeblock id="a33">Use example with long quotes and inline quotes.</codeblock>
+            
+            <div id="a34">No spaces are added inside quote elements in EN or FR, but they are displayed correctly. Show display as blocks and text</div>
+         </examplefig>
+         <examplefig id="a36" judgement="bad">Show how adding non-breakable spaces in FR may end up as double non-breakabke spaces.</examplefig>
+      </rule>
+   </rulesbody>
+</rules>

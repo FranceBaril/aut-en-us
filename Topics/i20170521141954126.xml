@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521141954126" status="new">
+  <title id="title">&lt;shortdesc&gt; in references</title>
+  <abstract id="abstract"><shortdesc id="shortdesc">Reference short descriptions summarize the what, when, where or how of the expression in the title. How these questions are answered depends on the interests and knowledge of the target audience.</shortdesc></abstract>
+  <prolog id="prolog">
+    <author id="author">France Baril</author>
+    <publisher id="publisher">Architextus</publisher>
+    <critdates id="critdates">
+      <created id="created" date="2017-05-21"/>
+    </critdates>
+  </prolog>
+  <rulesbody id="body">
+    <rule id="a0"><rule-statement id="a1"><action id="a2">Define the item identified in the title</action>.</rule-statement>
+      <examplefig id="a3" judgement="bad"> <desc id="a4">This &lt;shortdesc&gt; incorrectly defines what the topic contains instead of giving us details about the engine. In a reference guide of engines, we would end up with the same &lt;shortdesc&gt; for all engines.</desc>
+      <codeblock id="a5">&lt;reference&gt;
+  &lt;title&gt;Engine XYZ parts&lt;/title&gt;
+  &lt;shortdesc&gt;Illustrated assembly of the engine's parts, with all parts'
+    numbers.&lt;/shortdesc&gt;
+  ...
+&lt;/reference&gt;</codeblock></examplefig>
+      <examplefig id="a6" judgement="good"> <desc id="a7">If we assume that the level of details is adapted to the audience then this reference &lt;shortdesc&gt; correctly defines the engine as well as what to use it for.</desc>
+      <codeblock id="a8">&lt;reference&gt;
+  &lt;title&gt;Engine XYZ parts&lt;/title&gt;
+  &lt;shortdesc&gt;Engine XYZ is for economy cars. It is a four-stroke internal
+    combustion engine that runs on gasoline.&lt;/shortdesc&gt;
+  ...
+&lt;/reference&gt;</codeblock>
+      </examplefig> <examplefig id="a9" judgement="good"> <desc id="a10">This reference &lt;shortdesc&gt; correctly defines an XML element as well as when to use it and how.</desc>
+      <codeblock id="a11">&lt;reference&gt;
+  &lt;title&gt;Cmd&lt;/title&gt;
+  &lt;shortdesc&gt;The &amp;#60;cmd&amp;#62; element specifies a command, which
+    is a required element inside the &amp;#60;step&amp;#62; element. It 
+    provides the active voice instruction to the user for completing the step,
+    and should not be more than one sentence. If the step needs additional
+    explanation, place the explanation in an &amp;#60;info&amp;#62; element
+    following the &amp;#60;cmd&amp;#62;.&lt;/shortdesc&gt;
+  ...
+&lt;/reference&gt;</codeblock>
+      </examplefig> </rule>
+    <rule id="a12" conref="i20170521114759206#a6"><rule-statement id="a13"/></rule>
+  </rulesbody>
+</rules>

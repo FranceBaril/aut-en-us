@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521142025521" status="new">
+   <title id="title">&lt;stepresult&gt;</title>
+   <abstract id="abstract"><shortdesc id="shortdesc">Step results let users know that they are on the right track.</shortdesc></abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-21"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="a0"><rule-statement id="a1">For simple tasks, where little to nothing happens between each step, omit &lt;stepresult&gt; as much as possible, and use &lt;result&gt; at the end of the tasks to let users know that they have completed the operation successfully.</rule-statement>
+      <examplefig id="a2" judgement="good"><codeblock id="a3">&lt;task&gt;
+  &lt;title&gt;Turn off the alarm&lt;/title&gt;
+  &lt;steps&gt;
+    &lt;step&gt;
+      &lt;cmd&gt;Click the &lt;uicontrol&gt;Turn off&lt;/uicontrol&gt;
+        button.&lt;/cmd&gt;
+    &lt;/step&gt;
+    &lt;step&gt;
+      &lt;cmd&gt;Enter your code on the dial pad&lt;/cmd&gt;
+    &lt;/step&gt;
+    &lt;/steps&gt;
+    &lt;result&gt;The alarm is off. The system emits a long 
+      beep.&lt;/result&gt;
+&lt;/task&gt;</codeblock>
+      </examplefig>
+      </rule>
+      <rule id="a6">
+         <rule-statement id="a7">In complex system tasks, when something happens on the screen or when data is added, modified or deleted from a system, use &lt;stepresult&gt;.</rule-statement>
+         <examplefig id="a8" judgement="good" conref="i20170518114326585#a18"/>
+      </rule>
+     <rule id="a4" conref="i20170521123430377#a20">
+       <rule-statement id="a5"/>
+     </rule>
+   </rulesbody>
+</rules>

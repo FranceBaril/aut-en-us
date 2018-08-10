@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521114759206" status="new">
+   <title id="title">&lt;shortdesc&gt; in tasks</title>
+   <abstract id="abstract"><shortdesc id="shortdesc">Task short descriptions define the benefits of performing the tasks. They answer the question <q id="a10">Why?</q>. If relevant, they also state who may perform the actions, when and where.</shortdesc></abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-21"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="a0"> <rule-statement id="a1">Define the purpose/benefits of tasks. Do not simply repeat the title or state the obvious.</rule-statement>
+         <examplefig id="a2" judgement="good">
+         <codeblock id="a3">&lt;task&gt;
+  &lt;title&gt;Add users&lt;/title&gt;
+  &lt;shortdesc&gt;Define user profiles, passwords and access 
+    rights.&lt;/shortdesc&gt;
+  ...
+&lt;/task&gt;
+
+&lt;task&gt;
+  &lt;title&gt;Add users&lt;/title&gt;
+  &lt;shortdesc&gt;Login as administrator to define user profiles,
+    passwords and access rights.&lt;/shortdesc&gt;
+  ...
+&lt;/task&gt;
+            
+&lt;task&gt;&lt;title&gt;Add external users to a project&lt;/title&gt;
+  &lt;shortdesc&gt;Allow individual users, who are not part of your team,
+    read or write access to a project's resources.&lt;/shortdesc&gt;
+  ...
+&lt;/task&gt;
+
+&lt;task&gt;&lt;title&gt;Take a picture&lt;/title&gt;
+  &lt;shortdesc&gt;Take pictures in different formats from regular size to
+    panoramic, with or without flash.&lt;/shortdesc&gt;
+  ...
+&lt;/task&gt;
+
+&lt;task&gt;&lt;title&gt;Configure news monitoring&lt;/title&gt;
+  &lt;shortdesc&gt;Stay up to date. Define subjects of interest and receive
+    hourly, daily or weekly email notifications that summarize the latest news
+    and provide links to original articles.&lt;/shortdesc&gt;
+  ...
+&lt;/task&gt;</codeblock>
+         </examplefig> <examplefig id="a4" judgement="bad">
+         <codeblock id="a5">&lt;task&gt;
+  &lt;title&gt;Add users&lt;/title&gt;
+  &lt;shortdesc&gt;Add users to the system.&lt;/shortdesc&gt;
+  ...
+&lt;/task&gt;
+
+&lt;task&gt;&lt;title&gt;Take a picture&lt;/title&gt;
+  &lt;shortdesc&gt;Learn how to take a picture.&lt;/shortdesc&gt;
+  ...
+&lt;/task&gt;</codeblock>
+         </examplefig> </rule>
+      <rule id="a6"><rule-statement id="a7">Do not reference a publication's structure in short descriptions.</rule-statement>
+         <examplefig id="a8" judgement="bad">
+         <codeblock id="a9">&lt;shortdesc&gt;This topic explains...&lt;/shortdesc&gt;
+&lt;shortdesc&gt;This task provides a step-by-step approach to ...&lt;/shortdesc&gt;
+&lt;shortdesc&gt;In this chapter, we'll see...&lt;/shortdesc&gt;</codeblock>
+         </examplefig> </rule>
+   </rulesbody>
+</rules>

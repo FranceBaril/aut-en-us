@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521140632854" status="new">
+   <title id="title">&lt;postreq&gt;</title>
+   <abstract id="abstract"><shortdesc id="shortdesc">Post-requisites specify actions that users must take after a task is complete.</shortdesc></abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-21"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="a0"><rule-statement id="a1">Do not use &lt;postreq&gt; to send users to the next step of a larger process.</rule-statement>
+      <justification id="a2"><p id="a10">It would make the task unusable in other contexts.</p><p id="a7">Use related links to create previous/next navigation when tasks are grouped to make up larger processes. The <xref id="a8" href="http://www.dita-ot.org/2.4/parameters/parameters-base.html" scope="external">DITA-OT documentation</xref> provides information on such link processing. Look for the <parmname id="a9">args.rellinks</parmname> property.</p></justification></rule>
+      <rule id="a3"><rule-statement id="a4">Use &lt;postreq&gt; for steps that must be taken after the result of the task, the one stated in the title, has been reached.</rule-statement>
+         <examplefig id="a5" judgement="good"> <codeblock id="a6">&lt;title&gt;Buy a plane ticket&lt;/title&gt;
+&lt;steps&gt;
+  &lt;step&gt;
+    &lt;cmd&gt;...&lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+    &lt;cmd&gt;&lt;/cmd&gt;
+    &lt;stepresult&gt;Your purchase is complete. You will receive an email
+      confirmation within the next 24hrs.&lt;/stepresult&gt;
+  &lt;/step&gt;
+&lt;/steps&gt;
+&lt;postreq&gt;
+  &lt;ul&gt;
+    &lt;li&gt;24 hours to 1 hour before your flight, check in online or in
+      person at the airport with one of our terminals or agents.&lt;/li&gt;
+    &lt;li&gt;Arrive at the airport 2 hours in advance for local flights, 3 hours
+      in advance for international flights.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/postreq&gt;
+&lt;related-links&gt;
+  &lt;link href="luggage-allowance.dita"/&gt;
+&lt;/related-links&gt;
+</codeblock></examplefig> </rule>
+   </rulesbody>
+</rules>

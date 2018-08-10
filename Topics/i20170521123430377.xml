@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521123430377" status="new">
+  <title id="title">&lt;info&gt;</title>
+  <abstract id="abstract"><shortdesc id="shortdesc">&lt;info&gt; provides details that help users complete the actions stated in &lt;cmd&gt;.</shortdesc>
+ For example, they may document form fields or display a screen capture. They may also provide notes, tips, warnings or details about exceptions that may occur.</abstract>
+  <prolog id="prolog">
+    <author id="author">France Baril</author>
+    <publisher id="publisher">Architextus</publisher>
+    <critdates id="critdates">
+      <created id="created" date="2017-05-21"/>
+    </critdates>
+  </prolog>
+  <rulesbody id="body">
+    <rule id="a0"> <rule-statement id="a1">Use &lt;info&gt; only when it creates value. Most steps do not require supporting information.</rule-statement> </rule>
+   <rule id="a16"><rule-statement id="a17">When documenting a form, define only non-trivial items.</rule-statement>
+    </rule>
+    <rule id="a10"> <rule-statement id="a11">Do not itemize options from drop-down lists unless you intend to help the user select the correct one.</rule-statement>
+      <justification id="a12">Users can read the values in the interface.</justification> <examplefig id="a13" judgement="good"> <desc id="a14">This table defines a non-trivial form field. The field requires users to make a selection from a list of cryptic options. Options are defined in a &lt;dl&gt;.</desc>
+      <codeblock id="a15">&lt;step&gt;
+  &lt;cmd&gt;Fill the form and click &lt;OK&gt;.&lt;/cmd&gt;
+  &lt;info&gt;
+    &lt;table&gt;
+      &lt;title&gt;Field descriptions&lt;/title&gt;
+        &lt;tgroup&gt;
+          &lt;row&gt;
+            &lt;entry&gt;Categories&lt;/entry&gt;
+            &lt;entry&gt;
+              &lt;dl&gt;
+                &lt;dlentry&gt;
+                  &lt;dt&gt;Simple user&lt;/dt&gt;
+                  &lt;dd&gt;Read-only access to projects.&lt;/dd&gt;
+                &lt;/dlentry&gt;
+                &lt;dlentry&gt;
+                  &lt;dt&gt;Collaborator&lt;/dt&gt;
+                  &lt;dd&gt;Read/write access to projects.&lt;/dd&gt;
+                &lt;/dlentry&gt;
+                &lt;dlentry&gt;
+                  &lt;dt&gt;Project manager&lt;/dt&gt;
+                  &lt;dd&gt;Read/write and administrative access to 
+                    projects.&lt;/dd&gt;
+                &lt;/dlentry&gt;
+                &lt;dlentry&gt;
+                  &lt;dt&gt;Program manager&lt;/dt&gt;
+                  &lt;dd&gt;Ability to create new projects and assign project
+                    managers to them.&lt;/dd&gt;
+                &lt;/dlentry&gt;
+                &lt;dlentry&gt;
+                  &lt;dt&gt;System administrator&lt;/dt&gt;
+                  &lt;dd&gt;Ability to create users and user 
+                    categories. No access to projects&lt;/dd&gt;
+                &lt;/dlentry&gt;
+              &lt;/dl&gt;
+            &lt;/entry&gt;
+          &lt;/row&gt;
+        &lt;/tgroup&gt;
+      &lt;/table&gt;
+    &lt;/info&gt;
+    &lt;stepresult&gt;The system registers the 
+      modifications.&lt;/stepresult&gt;
+  &lt;/step&gt;</codeblock>
+      </examplefig> </rule>
+    
+
+    <rule id="a20"> <rule-statement id="a21"><action id="a22">Do not include screen captures unless they add value</action>. </rule-statement>
+      <justification id="a23"> <ul id="a32">
+      <li id="a33">Users are in front of the tool. They can see the page, the controls, the forms.</li>
+      <li id="a26">You can name the controls that change in &lt;stepresult&gt; to help users confirm that they are on the right track.</li>
+      <li id="a24">Confronting 3 pages of instructions is scary, half a page seems doable.</li>
+      <li id="a25">On smaller devices, such as phones or tablets, viewing large images requires that users tilt their device, zoom in or scroll up and down.</li>
+      <li id="a2"><p id="a34">Screen captures are hard on deadlines and costs as they are work intensive and can't be completed until the tool is ready. The domino effect is felt heavily on localization deadlines and costs.</p></li>
+      </ul> </justification> <examplefig id="a27" judgement="good"> <desc id="a30">This &lt;stepresult&gt; identifies the panel that opens by name, which eliminates the need to display large screen captures.</desc>
+      <codeblock id="a31">&lt;step&gt;
+  &lt;cmd&gt;In the table of content, right-click the slide to which you want 
+  to add the image and click &lt;uicontrol&gt;Add 
+  illustration...&lt;/uicontrol&gt;.&lt;/cmd&gt;
+  &lt;stepresult&gt;The &lt;uicontrol&gt;Search image&lt;/uicontrol&gt; panel opens.&lt;/stepresult&gt;
+&lt;/step&gt;</codeblock></examplefig> </rule>
+  </rulesbody>
+</rules>

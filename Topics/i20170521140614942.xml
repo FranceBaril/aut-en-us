@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521140614942" status="new">
+   <title id="title">&lt;context&gt;</title>
+   <abstract id="abstract"><shortdesc id="shortdesc">&lt;context&gt; is useful when information is needed to further explain the purpose of a task or to avoid errors</shortdesc>. In the name of minimalism, omit &lt;context&gt; as often as possible.</abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-21"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="a0"><rule-statement id="a1">Omit &lt;context&gt; when possible.</rule-statement>
+         <justification id="a2">Most tasks do not require an explicit context as the title and &lt;shortdesc&gt; often provide enough information.</justification> </rule>
+      <rule id="a3"><rule-statement id="a4"><action id="a5">Use &lt;context&gt; to explain how tasks might fit into larger user or business processes</action>. Make sure, however, that the information is not specific to a single process, it would make the task impossible to reuse.</rule-statement></rule>
+      <rule id="a6"><rule-statement id="a7"><action id="a8">Use &lt;context&gt; for notes or warnings that pertain to the entire task rather than specific steps</action>.</rule-statement></rule>
+   </rulesbody>
+</rules>

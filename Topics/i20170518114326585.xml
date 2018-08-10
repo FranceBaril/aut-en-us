@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170518114326585" status="new">
+   <title id="a0">&lt;cmd&gt;</title>
+   <abstract id="a1"><shortdesc id="a2">Commands are instructions in steps</shortdesc>. They tell users what to do in an active voice.</abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-18"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="a3">
+      <rule id="a4">
+         <rule-statement id="a5">
+            <action id="a6">Group all actions that tell users how to get to an interface into a single &lt;cmd&gt;.</action>
+         </rule-statement>
+         <justification id="a7">
+            <ul id="a8">
+              <li id="a11">It's a step that represents a single goal. It's as if we said: <q id="a31">First, get there!</q>.</li>
+               <li id="a9">It's easy for users to follow simple instructions until the system reacts.</li>
+               <li id="a10">A step for each click would result in tasks with too many steps. Best practices recommend 7+-2 steps per task.</li>
+               
+            </ul>
+         </justification>
+         <examplefig id="a18" judgement="good"><codeblock id="a19">&lt;steps&gt;
+  &lt;step&gt;
+    &lt;cmd&gt;In &lt;menucascade&gt;&lt;uicontrol
+      &gt;Menu&lt;/uicontrol&gt;&lt;uicontrol
+      &gt;Documents&lt;/uicontrol&gt;&lt;uicontrol
+      &gt;Transformation&lt;/uicontrol&gt;&lt;/menucascade&gt;, select 
+      &lt;uicontrol&gt;XSLT&lt;/uicontrol&gt; and click &lt;uicontrol
+      &gt;Modify&lt;/uicontrol&gt;.&lt;/cmd&gt;
+    &lt;stepresult&gt;The system displays the &lt;uicontrol&gt;Modify 
+      XSLT&lt;/uicontrol&gt; page.&lt;/stepresult&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+     &lt;cmd&gt;Make your changes and click &lt;uicontrol
+       &gt;OK&lt;/uicontrol&gt;.&lt;/cmd&gt;
+     &lt;info&gt;&lt;table conref="fielddescriptions.dita#table"
+       /&gt;&lt;/info&gt;
+     &lt;stepresult&gt;The system registers the changes.&lt;/stepresult&gt;
+  &lt;/step&gt;
+&lt;/steps&gt;</codeblock>
+      </examplefig>
+
+      </rule>
+     
+      <rule id="a22">
+        <rule-statement id="a23">When commands reference multiple &lt;uicontrol&gt;, mention the controls in the order in which users see/use them.</rule-statement>
+        <justification id="a26">Users act as they read. Don't make them scan the commands back and forth to find what they need to click, enter or select next.</justification>
+        <examplefig id="a27" judgement="good">
+          <codeblock id="a28">&lt;cmd&gt;Under &lt;menu-cascade&gt;&lt;uicontrol
+  &gt;Document&lt;/uicontrol&gt;&lt;uicontrol
+  &gt;Transformation&lt;/uicontrol&gt;&lt;/menu-cascade&gt;, 
+  select &lt;uicontrol&gt;XSL-FO&lt;/uicontrol&gt;.&lt;/cmd&gt;</codeblock>
+        </examplefig>
+        <examplefig id="a29" judgement="bad">
+          <codeblock id="a30">&lt;cmd&gt;Select &lt;uicontrol
+  &gt;XSL-FO&lt;/uicontrol&gt; under &lt;menu-cascade&gt;&lt;uicontrol
+  &gt;Document&lt;/uicontrol&gt;&lt;uicontrol
+  &gt;Transformation&lt;/uicontrol&gt;&lt;/menu-cascade&gt;.&lt;/cmd&gt;</codeblock>
+        </examplefig>
+      </rule>
+     
+      <rule id="a12">
+         <rule-statement id="a13">When <if-condition id="a14">users must fill form fields</if-condition> then <action id="a15">limit the content of &lt;cmd&gt; to asking users to fill the form</action> and <action id="a16">use &lt;info&gt; to define the fields that are non-trivial</action>, or <action id="a17">provide field descriptions for developers to include as tips in application interfaces</action>.</rule-statement>
+         <examplefig id="a20" judgement="bad">
+         <desc id="a21">Instructing users on how to select each control or fill each field individually results in too many steps.</desc>
+         <codeblock id="a24">&lt;steps&gt;
+  &lt;step&gt;
+    &lt;cmd&gt;Go to &lt;menu-cascade&gt;&lt;uicontrol
+      &gt;menu&lt;/uicontrol&gt;&lt;uicontrol&gt;submenu 
+      item&lt;/uicontrol&gt;&lt;uicontrol&gt;other submenu 
+      item&lt;/uicontrol&gt;&lt;/menu-cascade&gt;.&lt;/cmd&gt;
+    &lt;stepresult&gt;The page &lt;uicontrol&gt;All changes&lt;/uicontrol&gt;
+      is displayed.&lt;/stepresult&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+    &lt;cmd&gt;Select item x&lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+    &lt;cmd&gt;Click &lt;uicontrol&gt;Modify item&lt;/uicontrol&gt;&lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+    &lt;cmd&gt;In field A, enter your A.&lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+    &lt;cmd&gt;In field B, enter your B.&lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+    &lt;cmd&gt;In field C, enter your C.&lt;/cmd&gt;
+  &lt;/step&gt;
+  &lt;step&gt;
+    &lt;cmd&gt;Click &lt;uicontrol&gt;OK&lt;/uicontrol&gt;.&lt;/cmd&gt;
+  &lt;/step&gt;
+&lt;/steps&gt;</codeblock>
+      </examplefig>
+     <examplefig id="a25" judgement="good" conref="i20170521123430377#a13"/>
+      </rule>
+   </rulesbody>
+</rules>

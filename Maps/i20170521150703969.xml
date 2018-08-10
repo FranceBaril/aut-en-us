@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slideshow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:dittostudio:xsd:slideshowmap.xsd" id="i20170521150703969" status="new">
+    <title id="title">Style guide starter for DITA</title>
+    <slideshowmeta id="topicmeta">
+        <shortdesc id="shortdesc">
+            <draft-comment id="a0"/>
+        </shortdesc>
+        <author id="author">France Baril</author>
+        <author id="a184">Marie-Louise Flacke</author>
+        <critdates id="critdates">
+            <created id="created" date="2017-05-21"/>
+        </critdates>
+        <include-agenda id="a1" value="yes"/>
+        <include-section-overviews id="a2" value="yes"/>
+        <slide-transitions id="a3" value="convexe"/>
+        <theme id="a4" value="architextus-basic"/>
+    </slideshowmeta>
+    <!-- No time to specialize href to id-ref, so using href as id-ref for now -->
+    <slide-section id="a5">
+        <topicmeta id="a6">
+            <navtitle id="a7">What, why and how?</navtitle>
+        </topicmeta>
+        <topic-slidegroup href="../Topics/i20170523060333956.xml" id="a238" id-ref="i20170523060333956">
+            <elem-slidegroup href="../../" id="a239" id-ref="i20170523060333956#abstract" data-mode="default">
+                <slideref href="../../" id="a240" id-ref="i20170523060333956#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180103112654057.xml" id="a174" id-ref="i20180103112654057">
+            <elem-slidegroup href="../../" id="a175" id-ref="i20180103112654057#abstract" data-mode="default">
+                <slideref href="../../" id="a176" id-ref="i20180103112654057#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180103120710672.xml" id="a180" id-ref="i20180103120710672">
+            <elem-slidegroup href="../../" id="a181" id-ref="i20180103120710672#abstract" data-mode="default">
+                <slideref href="../../" id="a182" id-ref="i20180103120710672#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+    </slide-section>
+    <slide-section id="a243">
+        <topicmeta id="a244">
+            <navtitle id="a252">General writing rules</navtitle>
+        </topicmeta>
+        <topic-slidegroup href="../Topics/i20180103163656122.xml" id="a183" id-ref="i20180103163656122">
+            <elem-slidegroup href="../../" id="a185" id-ref="i20180103163656122#abstract" data-mode="default">
+                <slideref href="../../" id="a186" id-ref="i20180103163656122#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521114617601.xml" id="a161" id-ref="i20170521114617601">
+            <elem-slidegroup href="../../" id="a162" id-ref="i20170521114617601#abstract" data-mode="default">
+                <slideref href="../../" id="a163" id-ref="i20170521114617601#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a164" id-ref="i20170521114617601#a2" data-mode="default">
+                <slideref href="../../" id="a165" id-ref="i20170521114617601#a2" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a166" id-ref="i20170521114617601#a26" data-mode="default">
+                <slideref href="../../" id="a167" id-ref="i20170521114617601#a26" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a168" id-ref="i20170521114617601#b34" data-mode="default">
+                <slideref href="../../" id="a169" id-ref="i20170521114617601#b34" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521161308993.xml" id="a188" id-ref="i20170521161308993">
+            <elem-slidegroup href="../../" id="a190" id-ref="i20170521161308993#abstract" data-mode="default">
+                <slideref href="../../" id="a191" id-ref="i20170521161308993#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180103102748069.xml" id="a177" id-ref="i20180103102748069">
+            <elem-slidegroup href="../../" id="a178" id-ref="i20180103102748069#abstract" data-mode="default">
+                <slideref href="../../" id="a179" id-ref="i20180103102748069#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+    </slide-section>
+    <slide-section id="a8">
+        <topicmeta id="a9">
+            <navtitle id="a10">Common elements</navtitle>
+        </topicmeta>
+        <topic-slidegroup href="../Topics/i20170521161436742.xml" id="a189" id-ref="i20170521161436742">
+            <elem-slidegroup href="../../" id="a193" id-ref="i20170521161436742#abstract" data-mode="default">
+                <slideref href="../../" id="a194" id-ref="i20170521161436742#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a222" id-ref="i20170521161436742#rule-stmt-1" data-mode="default">
+                <slideref href="../../" id="a223" id-ref="i20170521161436742#rule-stmt-1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a224" id-ref="i20170521161436742#a5" data-mode="default">
+                <slideref href="../../" id="a225" id-ref="i20170521161436742#a5" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a226" id-ref="i20170521161436742#a7" data-mode="default">
+                <slideref href="../../" id="a227" id-ref="i20170521161436742#a7" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a228" id-ref="i20170521161436742#a9" data-mode="default">
+                <slideref href="../../" id="a229" id-ref="i20170521161436742#a9" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a230" id-ref="i20170521161436742#a11" data-mode="default">
+                <slideref href="../../" id="a231" id-ref="i20170521161436742#a11" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180102152956594.xml" id="a47" id-ref="i20180102152956594">
+            <elem-slidegroup href="../../" id="a48" id-ref="i20180102152956594#abstract" data-mode="default">
+                <slideref href="../../" id="a49" id-ref="i20180102152956594#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521161141348.xml" id="a192" id-ref="i20170521161141348">
+            <elem-slidegroup href="../../" id="a195" id-ref="i20170521161141348#abstract" data-mode="default">
+                <slideref href="../../" id="a196" id-ref="i20170521161141348#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a232" id-ref="i20170521161141348#rule-stmt-1" data-mode="default">
+                <slideref href="../../" id="a233" id-ref="i20170521161141348#rule-stmt-1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a234" id-ref="i20170521161141348#a2" data-mode="default">
+                <slideref href="../../" id="a235" id-ref="i20170521161141348#a2" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a236" id-ref="i20170521161141348#a5" data-mode="default">
+                <slideref href="../../" id="a237" id-ref="i20170521161141348#a5" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+    </slide-section>
+    <slide-section id="a11">
+        <topicmeta id="a12">
+            <navtitle id="a19">Concept elements</navtitle>
+        </topicmeta>
+        <topic-slidegroup href="../Topics/i20170521123455669.xml" id="a118" id-ref="i20170521123455669">
+            <elem-slidegroup href="../../" id="a119" id-ref="i20170521123455669#abstract" data-mode="default">
+                <slideref href="../../" id="a120" id-ref="i20170521123455669#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180102155330720.xml" id="a53" id-ref="i20180102155330720">
+            <elem-slidegroup href="../../" id="a54" id-ref="i20180102155330720#abstract" data-mode="default">
+                <slideref href="../../" id="a55" id-ref="i20180102155330720#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521123519722.xml" id="a68" id-ref="i20170521123519722">
+            <elem-slidegroup href="../../" id="a69" id-ref="i20170521123519722#abstract" data-mode="default">
+                <slideref href="../../" id="a70" id-ref="i20170521123519722#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a71" id-ref="i20170521123519722#a1" data-mode="default">
+                <slideref href="../../" id="a72" id-ref="i20170521123519722#a1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a73" id-ref="i20170521123519722#a5" data-mode="default">
+                <slideref href="../../" id="a74" id-ref="i20170521123519722#a5" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a75" id-ref="i20170521123519722#a11" data-mode="default">
+                <slideref href="../../" id="a76" id-ref="i20170521123519722#a11" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a77" id-ref="i20170521123519722#a14" data-mode="default">
+                <slideref href="../../" id="a78" id-ref="i20170521123519722#a14" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a79" id-ref="i20170521123519722#a16" data-mode="default">
+                <slideref href="../../" id="a80" id-ref="i20170521123519722#a16" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+    </slide-section>
+    <slide-section id="a13">
+        <topicmeta id="a14">
+            <navtitle id="a22">Task elements</navtitle>
+        </topicmeta>
+        <topic-slidegroup href="../Topics/i20170521114732719.xml" id="a148" id-ref="i20170521114732719">
+            <elem-slidegroup href="../../" id="a149" id-ref="i20170521114732719#abstract" data-mode="default">
+                <slideref href="../../" id="a150" id-ref="i20170521114732719#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a151" id-ref="i20170521114732719#a1" data-mode="default">
+                <slideref href="../../" id="a152" id-ref="i20170521114732719#a1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a153" id-ref="i20170521114732719#a2" data-mode="default">
+                <slideref href="../../" id="a154" id-ref="i20170521114732719#a2" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a155" id-ref="i20170521114732719#a4" data-mode="default">
+                <slideref href="../../" id="a156" id-ref="i20170521114732719#a4" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a157" id-ref="i20170521114732719#a10" data-mode="default">
+                <slideref href="../../" id="a158" id-ref="i20170521114732719#a10" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a159" id-ref="i20170521114732719#a12" data-mode="default">
+                <slideref href="../../" id="a160" id-ref="i20170521114732719#a12" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180102155320342.xml" id="a56" id-ref="i20180102155320342">
+            <elem-slidegroup href="../../" id="a57" id-ref="i20180102155320342#abstract" data-mode="default">
+                <slideref href="../../" id="a58" id-ref="i20180102155320342#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521114759206.xml" id="a92" id-ref="i20170521114759206">
+            <elem-slidegroup href="../../" id="a93" id-ref="i20170521114759206#abstract" data-mode="default">
+                <slideref href="../../" id="a94" id-ref="i20170521114759206#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a95" id-ref="i20170521114759206#a1" data-mode="default">
+                <slideref href="../../" id="a96" id-ref="i20170521114759206#a1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a97" id-ref="i20170521114759206#a2" data-mode="default">
+                <slideref href="../../" id="a98" id-ref="i20170521114759206#a2" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a99" id-ref="i20170521114759206#a4" data-mode="default">
+                <slideref href="../../" id="a100" id-ref="i20170521114759206#a4" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a101" id-ref="i20170521114759206#a7" data-mode="default">
+                <slideref href="../../" id="a102" id-ref="i20170521114759206#a7" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a103" id-ref="i20170521114759206#a8" data-mode="default">
+                <slideref href="../../" id="a104" id-ref="i20170521114759206#a8" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521140640791.xml" id="a197" id-ref="i20170521140640791">
+            <elem-slidegroup href="../../" id="a198" id-ref="i20170521140640791#abstract" data-mode="default">
+                <slideref href="../../" id="a199" id-ref="i20170521140640791#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a200" id-ref="i20170521140640791#a6" data-mode="default">
+                <slideref href="../../" id="a201" id-ref="i20170521140640791#a6" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a202" id-ref="i20170521140640791#a11" data-mode="default">
+                <slideref href="../../" id="a203" id-ref="i20170521140640791#a11" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a204" id-ref="i20170521140640791#a13" data-mode="default">
+                <slideref href="../../" id="a205" id-ref="i20170521140640791#a13" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a206" id-ref="i20170521140640791#a15" data-mode="default">
+                <slideref href="../../" id="a207" id-ref="i20170521140640791#a15" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a208" id-ref="i20170521140640791#a17" data-mode="default">
+                <slideref href="../../" id="a209" id-ref="i20170521140640791#a17" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a210" id-ref="i20170521140640791#a19" data-mode="default">
+                <slideref href="../../" id="a211" id-ref="i20170521140640791#a19" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a212" id-ref="i20170521140640791#a23" data-mode="default">
+                <slideref href="../../" id="a213" id-ref="i20170521140640791#a23" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a214" id-ref="i20170521140640791#a24" data-mode="default">
+                <slideref href="../../" id="a215" id-ref="i20170521140640791#a24" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521140614942.xml" id="a35" id-ref="i20170521140614942">
+            <elem-slidegroup href="../../" id="a36" id-ref="i20170521140614942#abstract" data-mode="default">
+                <slideref href="../../" id="a37" id-ref="i20170521140614942#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a38" id-ref="i20170521140614942#a1" data-mode="default">
+                <slideref href="../../" id="a39" id-ref="i20170521140614942#a1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a40" id-ref="i20170521140614942#a4" data-mode="default">
+                <slideref href="../../" id="a41" id-ref="i20170521140614942#a4" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a42" id-ref="i20170521140614942#a7" data-mode="default">
+                <slideref href="../../" id="a43" id-ref="i20170521140614942#a7" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170518114326585.xml" id="a17" id-ref="i20170518114326585">
+            <elem-slidegroup href="../../" id="a18" id-ref="i20170518114326585#a1" data-mode="default">
+                <slideref href="../../" id="a20" id-ref="i20170518114326585#a1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a21" id-ref="i20170518114326585#a5" data-mode="default">
+                <slideref href="../../" id="a23" id-ref="i20170518114326585#a5" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a24" id-ref="i20170518114326585#a18" data-mode="default">
+                <slideref href="../../" id="a26" id-ref="i20170518114326585#a18" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a27" id-ref="i20170518114326585#a13" data-mode="default">
+                <slideref href="../../" id="a28" id-ref="i20170518114326585#a13" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a29" id-ref="i20170518114326585#a20" data-mode="default">
+                <slideref href="../../" id="a30" id-ref="i20170518114326585#a20" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a31" id-ref="i20170518114326585#a25" data-mode="default">
+                <slideref href="../../" id="a32" id-ref="i20170518114326585#a25" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a33" id-ref="i20170518114326585#a27" data-mode="default">
+                <slideref href="../../" id="a34" id-ref="i20170518114326585#a27" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521123430377.xml" id="a44" id-ref="i20170521123430377">
+            <elem-slidegroup href="../../" id="a45" id-ref="i20170521123430377#abstract" data-mode="default">
+                <slideref href="../../" id="a46" id-ref="i20170521123430377#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521142025521.xml" id="a105" id-ref="i20170521142025521">
+            <elem-slidegroup href="../../" id="a106" id-ref="i20170521142025521#abstract" data-mode="default">
+                <slideref href="../../" id="a107" id-ref="i20170521142025521#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a108" id-ref="i20170521142025521#a1" data-mode="default">
+                <slideref href="../../" id="a109" id-ref="i20170521142025521#a1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a110" id-ref="i20170521142025521#a2" data-mode="default">
+                <slideref href="../../" id="a111" id-ref="i20170521142025521#a2" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a112" id-ref="i20170521142025521#a4" data-mode="default">
+                <slideref href="../../" id="a113" id-ref="i20170521142025521#a4" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a114" id-ref="i20170521142025521#a7" data-mode="default">
+                <slideref href="../../" id="a115" id-ref="i20170521142025521#a7" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a116" id-ref="i20170521142025521#a8" data-mode="default">
+                <slideref href="../../" id="a117" id-ref="i20170521142025521#a8" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521140632854.xml" id="a59" id-ref="i20170521140632854">
+            <elem-slidegroup href="../../" id="a60" id-ref="i20170521140632854#abstract" data-mode="default">
+                <slideref href="../../" id="a61" id-ref="i20170521140632854#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a62" id-ref="i20170521140632854#a1" data-mode="default">
+                <slideref href="../../" id="a63" id-ref="i20170521140632854#a1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a64" id-ref="i20170521140632854#a4" data-mode="default">
+                <slideref href="../../" id="a65" id-ref="i20170521140632854#a4" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a66" id-ref="i20170521140632854#a5" data-mode="default">
+                <slideref href="../../" id="a67" id-ref="i20170521140632854#a5" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+    </slide-section>
+    <slide-section id="a15">
+        <topicmeta id="a16">
+            <navtitle id="a25">Reference elements</navtitle>
+        </topicmeta>
+        <topic-slidegroup href="../Topics/i20170521142004967.xml" id="a137" id-ref="i20170521142004967">
+            <elem-slidegroup href="../../" id="a138" id-ref="i20170521142004967#abstract" data-mode="default">
+                <slideref href="../../" id="a139" id-ref="i20170521142004967#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a140" id-ref="i20170521142004967#a1" data-mode="default">
+                <slideref href="../../" id="a141" id-ref="i20170521142004967#a1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a142" id-ref="i20170521142004967#a4" data-mode="default">
+                <slideref href="../../" id="a143" id-ref="i20170521142004967#a4" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a144" id-ref="i20170521142004967#a7" data-mode="default">
+                <slideref href="../../" id="a145" id-ref="i20170521142004967#a7" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a146" id-ref="i20170521142004967#a13" data-mode="default">
+                <slideref href="../../" id="a147" id-ref="i20170521142004967#a13" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180102155346383.xml" id="a50" id-ref="i20180102155346383">
+            <elem-slidegroup href="../../" id="a51" id-ref="i20180102155346383#abstract" data-mode="default">
+                <slideref href="../../" id="a52" id-ref="i20180102155346383#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20170521141954126.xml" id="a81" id-ref="i20170521141954126">
+            <elem-slidegroup href="../../" id="a82" id-ref="i20170521141954126#abstract" data-mode="default">
+                <slideref href="../../" id="a83" id-ref="i20170521141954126#abstract" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a84" id-ref="i20170521141954126#a1" data-mode="default">
+                <slideref href="../../" id="a85" id-ref="i20170521141954126#a1" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a86" id-ref="i20170521141954126#a3" data-mode="default">
+                <slideref href="../../" id="a87" id-ref="i20170521141954126#a3" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a88" id-ref="i20170521141954126#a6" data-mode="default">
+                <slideref href="../../" id="a89" id-ref="i20170521141954126#a6" data-new="yes"/>
+            </elem-slidegroup>
+            <elem-slidegroup href="../../" id="a90" id-ref="i20170521141954126#a9" data-mode="default">
+                <slideref href="../../" id="a91" id-ref="i20170521141954126#a9" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+    </slide-section>
+    <slide-section id="a121">
+        <topicmeta id="a122">
+            <navtitle id="a216">Troubleshooting elements</navtitle>
+        </topicmeta>
+        <topic-slidegroup href="../Topics/i20180102160705248.xml" id="a123" id-ref="i20180102160705248">
+            <elem-slidegroup href="../../" id="a124" id-ref="i20180102160705248#abstract" data-mode="default">
+                <slideref href="../../" id="a125" id-ref="i20180102160705248#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180102163138771.xml" id="a126" id-ref="i20180102163138771">
+            <elem-slidegroup href="../../" id="a127" id-ref="i20180102163138771#abstract" data-mode="default">
+                <slideref href="../../" id="a128" id-ref="i20180102163138771#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180102163945093.xml" id="a129" id-ref="i20180102163945093">
+            <elem-slidegroup href="../../" id="a130" id-ref="i20180102163945093#abstract" data-mode="default">
+                <slideref href="../../" id="a131" id-ref="i20180102163945093#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180102164333602.xml" id="a132" id-ref="i20180102164333602">
+            <elem-slidegroup href="../../" id="a133" id-ref="i20180102164333602#abstract" data-mode="default">
+                <slideref href="../../" id="a134" id-ref="i20180102164333602#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180102165300004.xml" id="a135" id-ref="i20180102165300004">
+            <elem-slidegroup href="../../" id="a136" id-ref="i20180102165300004#abstract" data-mode="default">
+                <slideref href="../../" id="a170" id-ref="i20180102165300004#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+        <topic-slidegroup href="../Topics/i20180102170913519.xml" id="a171" id-ref="i20180102170913519">
+            <elem-slidegroup href="../../" id="a172" id-ref="i20180102170913519#abstract" data-mode="default">
+                <slideref href="../../" id="a173" id-ref="i20180102170913519#abstract" data-new="yes"/>
+            </elem-slidegroup>
+        </topic-slidegroup>
+    </slide-section>
+</slideshow>

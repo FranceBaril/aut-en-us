@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170523060333956" status="new">
+   <title id="title">Style guide</title>
+   <abstract id="abstract">A style guide provides <shortdesc id="shortdesc">a set of guidelines for writing and designing documents</shortdesc>. Guidelines are key to implementing efficient collaborative authoring practices and reuse strategies.</abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-23"/>
+      </critdates>
+   </prolog>
+   <conbody id="body"><p id="a0">The purpose of guidelines is to:</p><ul id="a1">
+         <li id="a2"><keypoint id="a3">Improve consistency</keypoint> within and across documents</li>
+         <li id="a4"><keypoint id="a5">Enforce best practices</keypoint></li>
+         <li id="a6"><keypoint id="a7">Improve compliance</keypoint>, for those in regulated industries</li>
+      </ul>
+      <p id="a8">In the case of DITA the guidelines also:</p>
+      <ul id="a9">
+         <li id="a10">Support collaborative practices</li>
+         <li id="a11">Optimize reuse opportunities</li>
+      </ul>
+      <p id="a12">Benefits are:</p>
+      <ul id="a13">
+         <li id="a14">Better user experience</li>
+         <li id="a15">Lower content creation costs</li>
+         <li id="a16">Lower translation costs</li>
+         <li id="a17">Faster time to market</li>
+      </ul>
+   </conbody>
+</concept>

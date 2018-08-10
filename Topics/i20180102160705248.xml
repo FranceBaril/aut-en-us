@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20180102160705248" status="new">
+   <title id="title">&lt;title&gt; in troubleshooting</title>
+   <abstract id="abstract">Troubleshooting titles <shortdesc id="shortdesc">define a symptom</shortdesc>.</abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2018-01-02"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="a0">
+         <rule-statement id="a1">For software or hardware errors, if an error message is available, put the code and message that users sees.</rule-statement>
+         <examplefig id="a2" judgement="good">
+            <ul id="a3">
+               <li id="a4">Error: incompatible types</li>
+               <li id="a5">Error 404: Page not found</li>
+               <li id="a6">[DOTJ030I] No 'class' attribute for was found for element '&lt;rule-statement&gt;'</li>
+               <li id="a7">java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableSet
+	at org.dita.dost.platform.Integrator</li>
+            </ul>
+            
+         </examplefig>
+      </rule>
+      <rule id="rule-1">
+         <rule-statement id="rule-stmt-1">State what occurs that shouldn't or what doesn't occur that should.</rule-statement>
+         <examplefig id="a8" judgement="good">
+            <ul id="a9">
+               <li id="a10">Wifi options are disabled</li>
+               <li id="a11">The phone beeps continuously</li>
+               <li id="a12">The phone won't stop beeping</li>
+               <li id="a13">The car won't start</li>
+               <li id="a14">There is a bad smell and fumes when the car starts</li>
+               <li id="a15">The printer won't print</li>
+               <li id="a16">The printer makes noises, but no copy comes out</li>
+            </ul>
+         </examplefig>
+      </rule>
+   </rulesbody>
+</rules>

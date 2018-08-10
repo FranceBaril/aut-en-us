@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20180102155330720" status="new">
+   <title id="title">&lt;abstract&gt; in concepts</title>
+   <abstract id="abstract"><shortdesc id="shortdesc"><draft-comment id="a0"/></shortdesc></abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2018-01-02"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="rule-1">
+         <rule-statement id="rule-stmt-1"/>
+      </rule>
+   </rulesbody>
+</rules>

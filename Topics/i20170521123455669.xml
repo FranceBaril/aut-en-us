@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521123455669" status="new">
+   <title id="title">&lt;title&gt; in concepts</title>
+   <abstract id="abstract">Concept titles are a <shortdesc id="shortdesc">single word or expression that identifies what the concept defines</shortdesc>.</abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-21"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="a0"><rule-statement id="a1">When <if-condition id="a3">titles can be expressed as acronyms</if-condition>, reference their glossentry.</rule-statement>
+         <justification id="a2">It lets processing rules define when to display surface forms or acronyms.</justification>
+      </rule>
+     <rule id="a5">
+        <rule-statement id="a6"><action id="a7">Use the singular form whenever it is possible</action>.</rule-statement>
+        <justification id="a4">
+           <ul id="a10">
+              <li id="a11">Better interpolarity with glossary entries that enables access to the surface form and existing definition for reuse in the abstract.</li>
+              <li id="a12">Better differenciation with references that are collection of entries and therefore often under a plural title.</li>
+           </ul>
+        </justification>
+        <examplefig id="a8" judgement="good">
+           <codeblock id="a9">&lt;title&gt;Topic&lt;/title&gt;
+&lt;title&gt;Topic type&lt;/title&gt;
+&lt;title&gt;Busy person&lt;/title&gt;
+&lt;title&gt;Topic reuse&lt;/title&gt;
+&lt;title&gt;Conditional filtering&lt;/title&gt;
+&lt;title&gt;Inheritance&lt;/title&gt;
+&lt;title&gt;Modularity&lt;/title&gt;</codeblock>
+        </examplefig>
+     </rule>
+   </rulesbody>
+</rules>

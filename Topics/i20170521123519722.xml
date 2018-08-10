@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521123519722" status="new">
+   <title id="title">&lt;shortdesc&gt; in concepts</title>
+   <abstract id="abstract"><shortdesc id="shortdesc">Concept short descriptions define the word or expression in the title. They answer the question <q id="a9">What is?</q>. They also often provide the <q id="a17">Why?</q> or <q id="a19">What for?</q>.</shortdesc></abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-21"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="a0"> <rule-statement id="a1">When <if-condition id="a2">definitions apply to a specific context</if-condition>, <action id="a3">start by stating that context</action>.</rule-statement>
+         <examplefig id="a5" judgement="good">
+           <desc id="a4">The context <q id="a20">In DITA</q> specifies that this definition should be interpreted in the context of DITA. It is useful to specify it because technical audiences are used to a different definition for inheritance. Stating the context prevents confusion.</desc>
+         <codeblock id="a6">&lt;concept&gt;&lt;title&gt;Inheritance&lt;/title&gt;
+  &lt;shortdesc&gt;In DITA, inheritance refers to the ability of XML elements
+    to profit from transformations or css styles defined for the elements from
+    from which they derive. Specializations define which elements derive from
+    which.&lt;/shortdesc&gt;
+  ...
+  &lt;related-links&gt;
+    &lt;link href="specialization.dita"&gt;&lt;/link&gt;
+  &lt;/related-links&gt;
+&lt;/concept&gt;</codeblock>
+         </examplefig></rule>
+      <rule id="a10"> <rule-statement id="a11"><action id="a12">Start definitions by stating the word or expression that they define</action>.</rule-statement>
+         <justification id="a13">It makes definitions self-contained, which makes them easier to reuse.</justification>
+         <examplefig id="a14" judgement="good">
+         <codeblock id="a15">&lt;concept&gt;&lt;title&gt;Topics&lt;/title&gt;
+  &lt;shortdesc&gt;Topics are the smallest units of information that stand on
+    their own. They are minimally composed of a title and a 
+    body.&lt;/shortdesc&gt;
+  ...
+&lt;/concept&gt;
+
+&lt;concept&gt;&lt;title&gt;Topics&lt;/title&gt;
+  &lt;shortdesc&gt;Topics are the smallest units of information that stand on
+    their own. They are minimally composed of a title and a body. Topics can be
+    combined in multiple maps for reuse in many 
+    publications.&lt;/shortdesc&gt;
+  ...
+&lt;/concept&gt;</codeblock></examplefig>
+     <examplefig id="a16" judgement="good"><codeblock id="a18">&lt;concept&gt;
+  &lt;title&gt;Modularity&lt;/title&gt;
+  &lt;shortdesc&gt;Modularity refers to the ability to separate and recombine
+    information units for different publications, audiences or 
+    purposes.&lt;/shortdesc&gt;
+  ...
+&lt;/concept&gt;</codeblock></examplefig>
+      </rule>
+     <rule id="a7" conref="i20170521114759206#a6">
+       <rule-statement id="a8"/>
+     </rule>
+   </rulesbody>
+</rules>

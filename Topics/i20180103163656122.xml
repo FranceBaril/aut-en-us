@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20180103163656122" status="new">
+    <title id="title">Consistent terminology</title>
+    <abstract id="abstract"><shortdesc id="shortdesc">Define a term base that lists the terms and expressions to use in content</shortdesc>.
+</abstract>
+    <prolog id="prolog">
+        <author id="author">France Baril</author>
+        <publisher id="publisher">Architextus</publisher>
+        <critdates id="critdates">
+            <created id="created" date="2018-01-03"/>
+        </critdates>
+    </prolog>
+    <body id="body">
+        <p id="a0">Every organization should have a term base that spans across languages.</p>
+        <p id="a1">The goal is simple:</p>
+        <ul id="a2">
+            <li id="a3">Use terms consistently</li>
+            <li id="a4">Avoid the multiplication of synonyms</li>
+        </ul>
+        <p id="a5">The benefits are:</p>
+        <ul id="a6">
+            <li id="a7"><keypoint id="a8">Better user understanding</keypoint>. <p id="a9">Synonyms can confuse users who have to define each time if 1 or more features are discussed.</p></li>
+            <li id="a10"><keypoint id="a11">Improve translation accuracy and efficiency</keypoint>. <p id="a12">The same term gets the same translation. </p></li>
+        </ul>
+        
+    </body>
+</topic>

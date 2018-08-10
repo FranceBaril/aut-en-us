@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521140640791" status="new">
+   <title id="title">&lt;prereq&gt;</title>
+   <abstract id="abstract"><shortdesc id="shortdesc">Prerequisites list what users must have/do before they can perform a task.</shortdesc><p id="a29">Prerequisites may be, but are not limited to:</p> <ul id="a0"><li id="a1">Information that readers must possess</li>
+         <li id="a2">Prior knowledge or certifications</li>
+         <li id="a3">Documentation/justifications that readers need to provide</li>
+   <li id="a4">System or software requirements</li></ul></abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-21"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="a5"><rule-statement id="a6">If there are multiple prerequisites, list them as unordered nouns or expressions.</rule-statement>
+         <justification id="a7"><ul id="a8">
+            <li id="a10">Transformations include an automated title that reads <q id="a28">Prerequisite(s)</q> and that makes the purpose of the items obvious to users.</li>
+           <li id="a9">One bullet equals one requirement. It's not necessarily true with paragraphs.</li>
+         </ul></justification>
+         <examplefig id="a11" judgement="na"><codeblock id="a26"> &lt;prereq&gt;
+  &lt;ul&gt;
+    &lt;li&gt;One accepted &lt;xref href="primary-ids"
+      &gt;primary id&lt;/xref&gt;&lt;/li&gt;
+    &lt;li&gt;One accepted &lt;xref href="secundary-ids"
+      &gt;secundary id&lt;/xref&gt;&lt;/li&gt;
+    &lt;li&gt;Proof of citizenship: birth certificate, non-expired 
+       passport, citizen card&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/prereq&gt;</codeblock></examplefig>
+      </rule>
+      <rule id="a12">
+         <rule-statement id="a13"><action id="a14">Do not include implicit prerequisites</action>.</rule-statement>
+         <examplefig id="a15" judgement="bad">
+            <codeblock id="a16">&lt;title&gt;PHP course level 2&lt;/title&gt;
+&lt;taskbody&gt;
+  &lt;prereq&gt;Basic knowledge of PHP.&lt;/prereq&gt;
+&lt;/taskbody&gt;</codeblock>
+         </examplefig>
+         <examplefig id="a17" judgement="good">
+            <codeblock id="a18">&lt;title&gt;PHP course level 2&lt;/title&gt;
+&lt;taskbody&gt;
+  &lt;prereq&gt;
+    &lt;p&gt;Working knowledge of:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;HTTP requests&lt;/li&gt;
+      &lt;li&gt;Array/JSON manipulation&lt;/li&gt;
+      &lt;li&gt;IF and WHILE statements&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/prereq&gt;
+  ...
+&lt;/taskbody&gt;</codeblock>
+         </examplefig>
+         <examplefig id="a19" judgement="good">
+            <desc id="a20">In the context of a course that delivers a certification, when students absolutely require the previous level, state it.</desc>
+            <codeblock id="a21">&lt;title&gt;PHP course level 2&lt;/title&gt;
+&lt;taskbody&gt;
+  &lt;prereq&gt;
+    &lt;p&gt;PHP course level 1&lt;/p&gt;
+  &lt;/prereq&gt;
+  ...
+&lt;/taskbody&gt;</codeblock>
+         </examplefig>
+      </rule>
+      <rule id="a22">
+         <rule-statement id="a23"><action id="a27">Include prerequisites when people need to gather documentation or any type of information, such as account or credit card numbers</action>.</rule-statement>
+         <examplefig id="a24" judgement="good"><codeblock id="a25">&lt;title&gt;Renew your passport&lt;/title&gt;
+&lt;taskbody&gt;
+  &lt;prereq&gt;
+    &lt;ul&gt;
+      &lt;li&gt;One accepted &lt;xref href="primary-ids"
+        &gt;primary id&lt;/xref&gt;&lt;/li&gt;
+      &lt;li&gt;One accepted &lt;xref href="secundary-ids"
+        &gt;secundary id&lt;/xref&gt;&lt;/li&gt;
+      &lt;li&gt;Proof of citizenship: birth certificate, non-expired 
+         passport, citizen card&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/prereq&gt;
+  ...
+&lt;/taskbody&gt;</codeblock></examplefig>
+      </rule>
+   </rulesbody>
+</rules>

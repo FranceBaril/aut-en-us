@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521161436742" status="new">
+   <title id="title">&lt;li&gt;</title>
+   <abstract id="abstract"><shortdesc id="shortdesc">List items can contain words, short expressions, sentence segments or full sentences. Rules differ based on the type of content.</shortdesc></abstract>
+   <prolog id="prolog">
+      <author id="author">France Baril</author>
+      <publisher id="publisher">Architextus</publisher>
+      <critdates id="critdates">
+         <created id="created" date="2017-05-21"/>
+      </critdates>
+   </prolog>
+   <rulesbody id="body">
+      <rule id="rule-1"> <rule-statement id="rule-stmt-1">Do not use punctuation marks at the end of &lt;li&gt; content except for full sentences.</rule-statement>
+         <justification id="a1"><ul id="a2">
+         <li id="a3">It makes conditional filtering simpler, especially when the punctuation of the last list item would be different from others.</li>
+         <li id="a4">It adapts better to small formats such as smartphones.</li>
+         <li id="a0">If punctuation must be added, the transformation process can be implemented to handle it and adapt the rules for different locales.</li>
+         </ul></justification> <examplefig id="a5" judgement="good">
+         <codeblock id="a6">&lt;ul&gt;
+  &lt;li&gt;Lettuce&lt;/li&gt;
+  &lt;li&gt;Onions&lt;/li&gt;
+  &lt;li&gt;Tomatoes&lt;/li&gt;
+&lt;/ul&gt;</codeblock>
+         </examplefig> <examplefig id="a7" judgement="bad">
+         <codeblock id="a8">&lt;ul&gt;
+  &lt;li&gt;Lettuce;&lt;/li&gt;
+  &lt;li&gt;Onions;&lt;/li&gt;
+  &lt;li&gt;Tomatoes.&lt;/li&gt;
+&lt;/ul&gt;</codeblock></examplefig>
+         <examplefig id="a9" judgement="good">
+         <codeblock id="a10">&lt;p&gt;Tomorrow:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Buy milk&lt;/li&gt;
+  &lt;li&gt;Bring John to practice&lt;/li&gt;
+  &lt;li&gt;Take out the garbage&lt;/li&gt;
+&lt;/ul&gt;</codeblock>
+         </examplefig> <examplefig id="a11" judgement="good"><codeblock id="a12">&lt;ul&gt;
+  &lt;li&gt;Buy milk. Make sure the peremption date gives us at least 5 days.&lt;/li&gt;
+  &lt;li&gt;Bring John to practice. Remember to bring an extra jacket.&lt;/li&gt;
+  &lt;li&gt;Take out the garbage.&lt;/li&gt;
+&lt;/ul&gt;</codeblock></examplefig>
+      </rule>
+   </rulesbody>
+</rules>

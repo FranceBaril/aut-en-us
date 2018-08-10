@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20180103112654057" status="new">
+    <title id="title">Why a style guide starter for DITA</title>
+    <abstract id="abstract">DITA provides a consistent structure for content. However, <shortdesc id="a0">to get truly consistent content out of DITA, it is necessary to use a consistent syntax</shortdesc> within the elements that make out the structure. This style guide starter provides a set of guidelines that you may or may not want to follow, but from which you can draw inspiration to define yor own set of rules.</abstract>
+    <prolog id="prolog">
+        <author id="author">France Baril</author>
+        <publisher id="publisher">Architextus</publisher>
+        <critdates id="critdates">
+            <created id="created" date="2018-01-03"/>
+        </critdates> 
+    </prolog>
+    <body id="body">
+        <section id="a1"><title id="a2">No single truth, hence a style guide starter</title>
+        <p id="a3">This guide is not trying to define the way everyone should create content.</p>
+        <p id="a4">Guidelines should:</p>
+        <ul id="a5">
+            <li id="a6">Improve the experience of your <keypoint id="a7">target audience</keypoint>. You don't address sports fan the same way you address bankers.</li>
+            <li id="a8">Work for your <keypoint id="a9">specific reuse strategies</keypoint>.</li>
+            <li id="a10">Support your <keypoint id="a11">business objectives</keypoint>. If you develop training material, you may need guidelines for writing learning objectives, while someone that writes maintenance guides for a nuclear power plant may be more interested in security notices.</li>
+            <li id="a12">Fit your corporate (or personnal) <keypoint id="a13">image</keypoint>.</li>
+        </ul>
+            <p id="a14">Hence, this style guide is a starting point for teams to define their common voice.</p>
+            <p id="a15">It is ok to modify guidelines for a specific business case or out of sheer preference. It is important, however, that everyone that collaborates on sets of content follows the same guidelines. An organization should have a single style guide to maximize collaboration, reuse and avoid departmental silos.</p>
+        </section>
+        <section id="a16"><title id="a17">Justifying guidelines</title>
+        <p id="a18">Justify guidelines to:</p>
+            <ul id="a19">
+                <li id="a20"><keypoint id="a21">Improve writers' compliance</keypoint>. People buy into rules when they understand their purpose. Writing in a collaborative environment and creating content for multiple contexts and media is new to most writers. Show them how most rules support reuse and business objectives.</li>
+                <li id="a22"><keypoint id="a23">Avoid rules perversion</keypoint>. Following rules blindly often leads to abberations. Applying rules to the wrong context can create problems rather than solve them.</li>
+                <li id="a24"><keypoint id="a25">Support maintenance</keypoint>. Some rules may stop to make sense over time as context evolve, when new media emerge, or when some publications become obsolete. It's easier to maintain a good set of rules when you remember why the rule was created in the 1st place.</li>
+            </ul>
+            
+        </section>
+    </body>
+</topic>
