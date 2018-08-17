@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i2018081171157"
+    status="new">
+    <title id="z200">&lt;shortdesc&gt; in rules</title>
+    <abstract id="abstract"><shortdesc id="shortdesc">Rule short descriptions provide the context for the rule.</shortdesc></abstract>
+    <rulesbody>
+        <rule>
+            <rule-statement>Include a &lt;shortdesc&gt; element within the abstract.</rule-statement>
+            <justification>The &lt;shortdesc&gt; element can be reused in learning materials for the style guide.</justification>
+            <examplefig>
+                <desc></desc>
+                <codeblock></codeblock>
+            </examplefig>
+            <examplefig>
+                <desc></desc>
+                <codeblock></codeblock>
+            </examplefig>
+        </rule>
+        <rule>
+            <rule-statement conref="i20170521114759206.xml#a6" outputclass="dita-to-text"></rule-statement>
+            <!-- topic: shortdesc in tasks -->
+            <examplefig id="z325" judgement="bad">
+                <codeblock conref="i20170521114759206.xml#a9" outputclass="dita-to-text"></codeblock>
+                <!-- topic: shortdesc in tasks -->
+            </examplefig>
+        </rule>
+    </rulesbody>
+</rules>

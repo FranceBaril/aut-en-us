@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808131555"
+   status="new">
+   <title id="title">Guidelines for New Rules</title>
+   <abstract id="abstract"><shortdesc id="z0">Each rule must conform to a structure to meet the needs of the audience</shortdesc>. Rules apply to an element and become part of the element defintition in the Style Guide. A well-written and consistent set of rules assists the reader to understand the use of the element.</abstract>
+   <prolog id="prolog"></prolog>
+   <rulesbody id="body">
+      <rule id="z1">
+         <rule-statement id="z2">Rules that relate to a specific element are included in that element topic.</rule-statement>
+         <justification id="z3">Grouping rules by element provide a coherent presentation to the Style Guide user. It makes it clear which rule applies to a specific element. If a rule applies to more than one element, it is likely a topic for the General Writing Rules section of the map.</justification>
+         <examplefig judgement="good" id="z4">
+            <desc id="z5"></desc>
+            <codeblock id="z6">&lt;rule-statement&gt;Use the &lt;shortdesc&gt; element as the first sentence in the &gt;abstract&lt; element. &lt;/rule-statement&gt;</codeblock>
+         </examplefig>
+         <examplefig judgement="bad" id="z7">
+            <desc id="z78">The inclusion of multiple use-cases means that this &lt;rule-statement&gt; is not found in all the right places and can be missed by busy readers.</desc>
+            <codeblock id="z8">
+               &lt;rule-statement&gt;When titles in concepts, reference, or troubleshooting topics can be expressed as acronyms, reference their glossentry.&lt;/rule-statement&gt;
+            </codeblock>
+         </examplefig>
+      </rule>
+      <rule id="z9">
+         <rule-statement id="z10">Group each element definition with its examples in a single &lt;slide-section&gt; element.</rule-statement>
+         <justification id="z11"></justification>
+         <examplefig judgement="good" id="z12">
+            <desc id="z60"></desc>
+            <codeblock id="z13"></codeblock>
+         </examplefig>
+         <examplefig judgement="bad" id="z14">
+            <desc id="z61"></desc>
+            <codeblock id="z15"></codeblock>
+         </examplefig>
+      </rule>
+      <rule id="z48">
+         <rule-statement id="z16">Provide good and bad examples of the rule.</rule-statement>
+         <justification id="z42">Examples give users another form of explanation for the &lt;rule-statement&gt; and expand the potential for understanding the rule.</justification>
+         <examplefig judgement="good" id="z17">
+            <desc id="z62"></desc>
+            <codeblock id="z18"></codeblock>
+         </examplefig>
+         <examplefig judgement="bad" id="z19">
+            <desc id="z63"></desc>
+            <codeblock id="z20"></codeblock>
+         </examplefig>
+      </rule>
+      <rule id="z21">
+         <rule-statement id="z22">Capture best practices.</rule-statement>
+         <justification id="z43"></justification>
+         <examplefig judgement="good" id="z22">
+            <desc id="z64"></desc>
+            <codeblock id="z23"></codeblock>
+         </examplefig>
+         <examplefig judgement="bad" id="z24">
+            <desc id="z65"></desc>
+            <codeblock id="z25"></codeblock>
+         </examplefig>
+      </rule>
+      <rule id="z49">
+         <rule-statement id="z26">Follow the language practices.</rule-statement>
+         <justification id="z44">As discussed in <xref href="i20180103120710672.xml">Define a style guide per language</xref> the requirements of different languages will vary. Follow the best practices for the language you are writing about.</justification>
+         <examplefig judgement="good" id="z27">
+            <desc id="z66"></desc>
+            <codeblock id="z28"></codeblock>
+         </examplefig>
+         <examplefig judgement="bad" id="29">
+            <desc id="z67"></desc>
+            <codeblock id="z30"></codeblock>
+         </examplefig>
+      </rule>
+      <rule id="z50">
+         <rule-statement id="z31">Identify regulatory requirements.</rule-statement>
+         <justification id="z45"></justification>
+         <examplefig judgement="good" id="z32">
+            <desc id="z68"></desc>
+            <codeblock id="z33"></codeblock>
+         </examplefig>
+         <examplefig judgement="bad" id="z33">
+            <desc id="z69"></desc>
+            <codeblock id="z34"></codeblock>
+         </examplefig>
+      </rule>
+      <rule id="z51">
+         <rule-statement id="z35">Ensure rules are consistent.</rule-statement>
+         <justification id="z46"></justification>
+         <examplefig judgement="good" id="z36">
+            <desc id="z70"></desc>
+            <codeblock id="z37"></codeblock>
+         </examplefig>
+         <examplefig judgement="bad" id="z71">
+            <desc id="z72"></desc>
+            <codeblock id="z73"></codeblock>
+         </examplefig>
+      </rule>
+      <rule id="z52">
+         <rule-statement id="z38">Include an abstract with a short description to new element topics.</rule-statement>
+         <justification id="z47"></justification>
+         <examplefig judgement="good" id="z39">
+            <desc id="z74"></desc>
+            <codeblock id="z40"></codeblock>
+         </examplefig>
+         <examplefig judgement="bad" id="z41">
+            <desc id="z75"></desc>
+            <codeblock id="42"></codeblock>
+         </examplefig>
+      </rule>
+      <rule id="z53">
+         <rule-statement id="z54">Include a justification to expand on the reasons for the rule.</rule-statement>
+         <justification id="z55">The &lt;justification&gt; element provides the rationale for the rule. This element gives you the opportunity to explain the background for the rule.</justification>
+         <examplefig judgement="good" id="z56">
+            <desc id="z76"></desc>
+            <codeblock id="z57"></codeblock>
+         </examplefig>
+         <examplefig judgement="bad" id="z58">
+            <desc id="z77"></desc>
+            <codeblock id="z59"></codeblock>
+         </examplefig>
+      </rule>
+   </rulesbody>
+</rules>

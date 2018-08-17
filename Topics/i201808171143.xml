@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i2018081171143"
+    status="new">
+    <title id="z200">&lt;topic-slidegroup&gt;</title>
+    <abstract id="abstract"><shortdesc id="shortdesc"></shortdesc></abstract>
+    <rulesbody>
+        <rule>
+            <rule-statement>Include element rules in the appropriate slide-section of the map.</rule-statement>
+            <justification>When documenting the use of an element not already in the style guide, reference the topic in the map.</justification>
+            <examplefig judgement="good">
+                <desc></desc>
+                <codeblock>
+                    &lt;slide-section id="generalrules"&gt;
+                        &lt;topicmeta id="genrulenavtitle"&gt;
+                            &lt;navtitle id="genwritingrules"&gt;General writing rules&lt;/navtitle&gt;
+                        &lt;/topicmeta&gt;
+                        &lt;topic-slidegroup href="../Topics/ConsistentTerms.xml" id="a183" id-ref="ConsistentTerms"&gt;
+                            &lt;elem-slidegroup href="../../" id="a185" id-ref="ConsistentTerms#abstract" data-mode="default"&gt;
+                                 &lt;slideref href="../../" id="a186" id-ref="ConsistentTerms#abstract" data-new="yes"/&gt;
+                            &lt;/elem-slidegroup&gt;
+                        &lt;/topic-slidegroup&gt;
+                </codeblock>
+            </examplefig>
+            <examplefig judgement="bad">
+                <desc></desc>
+                <codeblock></codeblock>
+            </examplefig>
+        </rule>
+    </rulesbody>
+</rules>
