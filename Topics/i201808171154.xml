@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i2018081171154"
+    status="new">
+    <title id="z200">&lt;title&gt; in rules</title>
+    <abstract id="abstract"><shortdesc id="shortdesc">Rule titles name the element, and if necessary, the context for the rules included in the topic.</shortdesc> The style guide describes how to use the DITA elements.</abstract>
+    <rulesbody>
+        <rule>
+            <rule-statement id="z300">When an element occurs in more than one context, use the context in the title.</rule-statement>
+            <justification>Using the context allows readers to quickly find the appropriate usage of the element.</justification>
+            <examplefig judgement="good">
+                <desc></desc>
+                <codeblock conref="i20170521114732719.xml#title" outputclass="dita-to-text"></codeblock>
+                <!-- topic: title in tasks -->
+            </examplefig>
+        </rule>
+        <rule>
+            <rule-statement id="z301">Use sentence capitalization when providing context in a title.</rule-statement>
+            <justification></justification>
+            <examplefig judgement="good">
+                <desc></desc>
+                <codeblock conref="i20170521114732719.xml#title" outputclass="dita-to-text"></codeblock>
+                <!-- topic: title in tasks -->
+            </examplefig>
+        </rule>
+    </rulesbody>
+</rules>
