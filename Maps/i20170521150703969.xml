@@ -380,6 +380,7 @@
         <topic-slidegroup href="../Topics/i20180102170913519.xml" id="a171" id-ref="i20180102170913519">
             <elem-slidegroup href="../../" id="a172" id-ref="i20180102170913519#abstract" data-mode="default">
                 <slideref href="../../" id="a173" id-ref="i20180102170913519#abstract" data-new="yes"/>
+                
             </elem-slidegroup>
         </topic-slidegroup>
     </slide-section>
