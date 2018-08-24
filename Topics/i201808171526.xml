@@ -6,11 +6,15 @@
     <abstract><shortdesc></shortdesc></abstract>
     <rulesbody>
         <rule>
-            <rule-statement></rule-statement>
-            <justification></justification>
-            <examplefig>
+            <rule-statement>Provide complete sample code that clearly demonstrates and supports the rule.</rule-statement>
+            <justification>Users need to see rules in action to fully understand how to use and not abuse the rule.</justification>
+            <examplefig judgement="good">
                 <desc></desc>
-                <codeblock></codeblock>
+                <codeblock>
+                    &lt;codeblock&gt;
+                        &lt;step&gt;Enter your name in &lt;uicontrol&gt;Name&lt;/uicontrol&gt;. &lt;/step&gt;
+                    &lt;/codeblock&gt;
+                </codeblock>
             </examplefig>
         </rule>
     </rulesbody>

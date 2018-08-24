@@ -6,11 +6,19 @@
     <abstract><shortdesc></shortdesc></abstract>
     <rulesbody>
         <rule>
-            <rule-statement></rule-statement>
+            <rule-statement>Provide the rationale for the rule.</rule-statement>
             <justification></justification>
             <examplefig>
                 <desc></desc>
-                <codeblock></codeblock>
+                <codeblock conref="i20170521123519722#a13"></codeblock>
+            </examplefig>
+        </rule>
+        <rule>
+            <rule-statement>When providing multiple reasons for the rule, use a bulleted list.</rule-statement>
+            <justification></justification>
+            <examplefig>
+                <desc></desc>
+                <codeblock conref="i20170521161436742#a1" outputclass="dita-to-text"></codeblock>
             </examplefig>
         </rule>
     </rulesbody>

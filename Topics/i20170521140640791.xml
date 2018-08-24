@@ -22,8 +22,8 @@
   &lt;ul&gt;
     &lt;li&gt;One accepted &lt;xref href="primary-ids"
       &gt;primary id&lt;/xref&gt;&lt;/li&gt;
-    &lt;li&gt;One accepted &lt;xref href="secundary-ids"
-      &gt;secundary id&lt;/xref&gt;&lt;/li&gt;
+    &lt;li&gt;One accepted &lt;xref href="secondary-ids"
+      &gt;secondary id&lt;/xref&gt;&lt;/li&gt;
     &lt;li&gt;Proof of citizenship: birth certificate, non-expired 
        passport, citizen card&lt;/li&gt;
   &lt;/ul&gt;
@@ -70,8 +70,8 @@
     &lt;ul&gt;
       &lt;li&gt;One accepted &lt;xref href="primary-ids"
         &gt;primary id&lt;/xref&gt;&lt;/li&gt;
-      &lt;li&gt;One accepted &lt;xref href="secundary-ids"
-        &gt;secundary id&lt;/xref&gt;&lt;/li&gt;
+      &lt;li&gt;One accepted &lt;xref href="secondary-ids"
+        &gt;secondary id&lt;/xref&gt;&lt;/li&gt;
       &lt;li&gt;Proof of citizenship: birth certificate, non-expired 
          passport, citizen card&lt;/li&gt;
     &lt;/ul&gt;

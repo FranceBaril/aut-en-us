@@ -12,15 +12,16 @@
    <rulesbody id="body">
       <rule id="rule-1">
          <rule-statement id="rule-stmt-1">To quote blocks of text, use the long quotes element &lt;lq&gt;</rule-statement>
-         <justification id="a1"><ul id="a2"><li id="a3">It allows different renderring for different publications</li>
-         </ul></justification>
-         <examplefig id="a4" judgement="good">Show long quote formatting as indented block and different quotes in different languages. Desc should say that some renderring don't even have quotes. Also include examples with directional and non-directionnal quotations marks.</examplefig>
+         <justification id="a1">This allows different renderings for different publications</justification>
+         <examplefig id="a4" judgement="good"><codeblock><p>The term &lt;accountability&gt; is used because section 5.3.1.2 of the Business Process manual says &lt;lq&gt;The primary resonsibility for reporting to management falls to the project lead who is accountable for the timetable and scope of each sprint.&lt;/lq&gt;</p>
+            <p>The term <q>accountability</q> is used because section 5.3.1.2 of the Business Process manual says <lq>The primary resonsibility for reporting to management falls to the project lead who is accountable for the timetable and scope of each sprint.</lq></p></codeblock>
+            <!-- Show long quote formatting as indented block and different quotes in different languages. Desc should say that some rendering don't even use quotes. Also include examples with directional and non-directionnal quotations marks.</examplefig> --></examplefig>
       </rule>
       <rule id="a5">
-         <rule-statement id="a6">To quote inline text, use the quote element &lt;q&lt;é</rule-statement>
-         <justification id="a7"><ul id="a8"><li id="a9">It allows different renderring for different publications</li>
+         <rule-statement id="a6">To quote inline text, use the quote element &lt;q&gt;</rule-statement>
+         <justification id="a7"><ul id="a8"><li id="a9">It allows different rendering for different publications</li>
          </ul></justification>
-         <examplefig id="a10" judgement="good">Show usage of embedded quotes and how they are displayed as double or single depending on level. show 2 renderring for that same content.</examplefig>
+         <examplefig id="a10" judgement="good">Show usage of embedded quotes and how they are displayed as double or single depending on level. Show 2 rendering for that same content.</examplefig>
       </rule>
       <!-- Reuse rule about spaces inside quotation marks -->
       <rule id="a11" conref="i20170521114617601#b40">

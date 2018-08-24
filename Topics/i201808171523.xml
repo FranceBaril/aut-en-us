@@ -3,14 +3,24 @@
     xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808171523"
     status="new">
     <title>&lt;examplefig&gt;</title>
-    <abstract><shortdesc></shortdesc></abstract>
+    <abstract><shortdesc>The examplefig element triggers the display of a heading indicating whether the sample is a correct or incorrect usage of the element.</shortdesc></abstract>
     <rulesbody>
         <rule>
-            <rule-statement></rule-statement>
-            <justification></justification>
+            <rule-statement>Identify the type of example using the <q>judgement</q> attribute.</rule-statement>
+            <justification>The attribute is picked up by the processing system and generates one of two images for the title.</justification>
             <examplefig>
                 <desc></desc>
-                <codeblock></codeblock>
+                <codeblock>
+                    &lt;examplefig judgement="good"&gt;
+                        &lt;codeblock&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;Lettuce&lt;/li&gt;
+                                &lt;li&gt;Onion&lt;/li&gt;
+                                &lt;li&gt;Tomato&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/codeblock&gt;
+                    &lt;/examplefig&gt;
+                </codeblock>
             </examplefig>
         </rule>
     </rulesbody>

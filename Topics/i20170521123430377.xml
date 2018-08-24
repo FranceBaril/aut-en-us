@@ -70,7 +70,7 @@
       <li id="a2"><p id="a34">Screen captures are hard on deadlines and costs as they are work intensive and can't be completed until the tool is ready. The domino effect is felt heavily on localization deadlines and costs.</p></li>
       </ul> </justification> <examplefig id="a27" judgement="good"> <desc id="a30">This &lt;stepresult&gt; identifies the panel that opens by name, which eliminates the need to display large screen captures.</desc>
       <codeblock id="a31">&lt;step&gt;
-  &lt;cmd&gt;In the table of content, right-click the slide to which you want 
+  &lt;cmd&gt;In the table of contents, right-click the slide to which you want 
   to add the image and click &lt;uicontrol&gt;Add 
   illustration...&lt;/uicontrol&gt;.&lt;/cmd&gt;
   &lt;stepresult&gt;The &lt;uicontrol&gt;Search image&lt;/uicontrol&gt; panel opens.&lt;/stepresult&gt;

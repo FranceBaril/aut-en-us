@@ -16,7 +16,7 @@
         </rule>
         <rule>
             <rule-statement id="z301">Use sentence capitalization when providing context in a title.</rule-statement>
-            <justification></justification>
+            <justification>This allows more flexible reuse of the element in automated aggregates such as training slides or marketing documents.</justification>
             <examplefig judgement="good">
                 <desc></desc>
                 <codeblock conref="i20170521114732719.xml#title" outputclass="dita-to-text"></codeblock>

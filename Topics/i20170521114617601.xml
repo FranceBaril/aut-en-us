@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170521114617601" status="new">
    <title id="title">White spaces</title>
-   <abstract id="abstract"><shortdesc id="shortdesc">In XML, the meaning of white spaces differs depending on their location. Spaces between block elements are for readability during authoring and are ignored at publishing, but spaces in <term id="a0">mixed content</term> are significant.</shortdesc> A correct and consistent use of white spaces leads to adequate processing and high-quality publications.</abstract>
+   <abstract id="abstract"><shortdesc id="shortdesc">In XML, the meaning of white spaces differs depending on their location. Spaces between block elements are for readability during authoring and are ignored during processing. Spaces in <term id="a0">mixed content</term> are significant.</shortdesc> A correct and consistent use of white spaces leads to accurate processing and high-quality publications.</abstract>
    <prolog id="prolog">
       <author id="author">France Baril</author>
       <publisher id="publisher">Architextus</publisher>
@@ -11,31 +11,37 @@
    </prolog>
    <rulesbody id="body">
       <rule id="a1">
-         <rule-statement id="a2">In <term id="a18">mixed content</term>, <action id="a3">include white spaces around inline elements, not in them</action>.</rule-statement>
+         <rule-statement id="a2">In <term id="a18">mixed content</term>, <action id="a3">include white spaces around inline elements, not inside them</action>.</rule-statement>
          <examplefig id="a4" judgement="good">
+            <desc>The white space is outside of the &lt;uicontrol&gt; element.</desc>
             <codeblock id="a5">&lt;p&gt;Click &lt;uicontrol&gt;Ok&lt;/uicontrol&gt;.&lt;/p&gt;</codeblock>
          </examplefig>
          <examplefig id="a7" judgement="bad">
+            <desc>The white space is inside of the &lt;uicontrol&gt; element.</desc>
             <codeblock id="a6">&lt;p&gt;Click&lt;uicontrol&gt; Ok&lt;/uicontrol&gt;.&lt;/p&gt;</codeblock>
          </examplefig>
          <examplefig id="a10" judgement="good">
+            <desc>The white spaces are outside of the &lt;xref&gt; elements.</desc>
             <codeblock id="a8">&lt;p&gt;I love &lt;xref href="http://www.d2.com"
   scope="external"&gt;D&lt;sup&gt;2&lt;/sup&gt;&lt;/xref&gt; and &lt;xref 
   href="http://www.google.ca" scope="external"&gt;Google&lt;/xref&gt;.&lt;/p&gt;</codeblock>
          </examplefig>
          <examplefig id="a15" judgement="bad">
+            <desc>The white spaces are inside of the &lt;sup&gt; element.</desc>
             <codeblock id="a9">&lt;p&gt;I love &lt;xref href="http://www.d2.com"
   scope="external"&gt;D&lt;sup&gt;2 &lt;/sup&gt;&lt;/xref&gt;and &lt;xref 
   href="http://www.google.ca" scope="external"&gt;Google&lt;/xref&gt;.&lt;/p&gt;</codeblock>
          </examplefig>
-         <examplefig id="a20" judgement="bad"><codeblock id="a11">&lt;p&gt;I love&lt;xref href="http://www.d2.com" 
+         <examplefig id="a20" judgement="bad">
+            <desc>The white spaces are inside of the &lt;xref&gt; elements.</desc>
+            <codeblock id="a11">&lt;p&gt;I love&lt;xref href="http://www.d2.com" 
   scope="external"&gt; D&lt;sup&gt;2&lt;/sup&gt; &lt;/xref&gt;and&lt;xref 
   href="http://www.google.ca" scope="external"&gt; Google&lt;/xref&gt;.&lt;/p&gt;</codeblock>
          </examplefig>
       </rule>
       <rule id="a25">
          <rule-statement id="a26"><action id="a12">Do not insert white spaces at the beginning or at the end of blocks</action>.</rule-statement>
-         <justification id="a27"><ul id="a28"><li id="a29">Changes in white spaces will trigger translation for the block.</li>
+         <justification id="a27"><ul id="a28"><li id="a29">Changes in white spaces will trigger a new translation of the block.</li>
          <li id="a30">HTML ignores theses spaces, but some PDF and RTF rendering engines don't. We've seen publications where random paragraphs started with spaces.</li></ul></justification>
          <examplefig id="a31" judgement="good"><codeblock id="a500">&lt;cmd&gt;Click &lt;uicontrol&gt;Ok&lt;/uicontrol&gt;.&lt;/cmd&gt;</codeblock></examplefig>
          <examplefig id="a32" judgement="bad"><codeblock id="a501">&lt;cmd&gt; Click &lt;uicontrol&gt;Ok&lt;/uicontrol&gt;.&lt;/cmd&gt;</codeblock></examplefig>
@@ -55,13 +61,13 @@
       </rule>
       <rule id="b40">
          <rule-statement id="a16">Do not add any white spaces manually immediately inside quotation elements.</rule-statement>
-         <justification id="a19"><ul id="a21"><li id="a22">The system handles white spaces automatically for different media and languages.</li><li id="a23">It is common, in some media, to show long quotes as indented text. You can't assume quoted content will actually show up with quotation marks.</li></ul></justification>
+         <justification id="a19"><ul id="a21"><li id="a22">The processing handles white spaces automatically for different media and languages.</li><li id="a23">It is common, in some media, to show long quotes as indented text. You can't assume quoted content will actually show up with quotation marks.</li></ul></justification>
          <examplefig id="a24" judgement="good">
-            <codeblock id="a33">Use example with long quotes and inline quotes.</codeblock>
+            <codeblock id="a33">The term &lt;q&gt;accountability&lt;/q&gt; is used because section 5.3.1.2 of the Business Process manual says &lt;lq&gt;The primary responsibility for reporting to management falls to the project lead who is accountable for the timetable and scope of each sprint.&lt;/lq&gt;</codeblock>
             
             <div id="a34">No spaces are added inside quote elements in EN or FR, but they are displayed correctly. Show display as blocks and text</div>
          </examplefig>
-         <examplefig id="a36" judgement="bad">Show how adding non-breakable spaces in FR may end up as double non-breakabke spaces.</examplefig>
+         <examplefig id="a36" judgement="bad">Show how adding non-breakable spaces in FR may end up as double non-breakable spaces.</examplefig>
       </rule>
    </rulesbody>
 </rules>
