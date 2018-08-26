@@ -3,6 +3,7 @@
    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808131555"
    status="new">
    <title id="title">Guidelines for New Rules</title>
+   <!-- Do not use this topic - Wanda -->
    <abstract id="abstract"><shortdesc id="z0">Each rule must conform to a structure to meet the needs of the audience</shortdesc>. Rules apply to an element and become part of the element defintition in the Style Guide. A well-written and consistent set of rules assists the reader to understand the use of the element.</abstract>
    <prolog id="prolog"></prolog>
    <rulesbody id="body">
