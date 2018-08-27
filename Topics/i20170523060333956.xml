@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i20170523060333956" status="new">
    <title id="title">Style guide</title>
-   <abstract id="abstract">A style guide provides <shortdesc id="shortdesc">a set of guidelines for writing and designing documents</shortdesc>. Guidelines are key to implementing efficient, collaborative authoring practices and reuse strategies.</abstract>
+   <abstract id="abstract">A style guide provides <shortdesc id="shortdesc">a set of guidelines for writing and designing documents</shortdesc>. Guidelines are key to implementing efficient collaborative authoring practices and reuse strategies.</abstract>
    <prolog id="prolog">
       <author id="author">France Baril</author>
       <publisher id="publisher">Architextus</publisher>

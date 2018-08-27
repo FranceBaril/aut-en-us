@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i2018081171156"
-    status="new">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i2018081171156" status="new">
     <title id="z200">&lt;abstract&gt; in rules</title>
-    <abstract id="abstract"><shortdesc id="shortdesc">The abstract provides context for the style rules applied to the element.</shortdesc></abstract>
-    <rulesbody>
+    <abstract id="abstract"><shortdesc id="shortdesc">The abstract describe when to use an element or the context in which the rules apply.</shortdesc></abstract>
+    <rulesbody id="a0">
         <rule id="z303">
             <rule-statement id="z304">Include an abstract that describes the context of the rule.</rule-statement>
             <justification id="z305">The abstract assists readers in determining the appropriate application of the element in the title.</justification>
             <examplefig judgement="good" id="z306">
                 <desc id="z310">The abstract provides direct and concise information about the topic.</desc>
-                <codeblock id="z311" conref="i20170521114732719.xml#a3" outputclass="dita-to-text"></codeblock>
+                <codeblock id="z311" conref="i20170521114732719#a3" outputclass="dita-to-text"/>
                 <!-- topic: title in tasks -->
             </examplefig>
             <examplefig judgement="bad" id="z307">

@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808171520"
-    status="new">
-    <title>&lt;justification&gt;</title>
-    <abstract><shortdesc></shortdesc></abstract>
-    <rulesbody>
-        <rule>
-            <rule-statement>Provide the rationale for the rule.</rule-statement>
-            <justification></justification>
-            <examplefig>
-                <desc></desc>
-                <codeblock conref="i20170521123519722#a13"></codeblock>
-            </examplefig>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808171520" status="new">
+    <title id="a0">&lt;justification&gt;</title>
+    <abstract id="a1"><shortdesc id="a2"/></abstract>
+    <rulesbody id="a3">
+        <rule id="a4">
+            <rule-statement id="a5">Provide the rationale for the rule.</rule-statement>
+            <justification id="a6"><ul id="a7">
+                <li id="a8">People are most likely to follow rules when they understand why they must apply them.</li>
+                <li id="a9">People are most likely to apply rules intelligently when they understant why they must apply them.</li>
+                <li id="a10">Rules exist for a purpose, following rules blindly and out of context may make no sense. The rationale helps users know when to raise a flag or when they can use their judgement and break some of the rules.</li>
+            </ul></justification>
+            
         </rule>
-        <rule>
-            <rule-statement>When providing multiple reasons for the rule, use a bulleted list.</rule-statement>
-            <justification></justification>
-            <examplefig>
-                <desc></desc>
-                <codeblock conref="i20170521161436742#a1" outputclass="dita-to-text"></codeblock>
-            </examplefig>
+        <rule id="a11">
+            <rule-statement id="a12">When there are multiple reasons for a rule, use a bulleted list.</rule-statement>
+            <justification id="a13">The transformation processes format each bullet point as a separate justification.</justification>
+            
         </rule>
     </rulesbody>
 </rules>

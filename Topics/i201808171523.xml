@@ -1,42 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808171523"
-    status="new">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808171523" status="new">
     <title id="z100">&lt;examplefig&gt;</title>
-    <abstract><shortdesc id="z101">The examplefig element triggers the display of a heading indicating whether the sample is a correct or incorrect usage of the element.</shortdesc></abstract>
-    <rulesbody>
-        <rule>
-            <rule-statement id="z102">Identify the type of example using the <q>judgement</q> attribute.</rule-statement>
-            <justification id="z104">The attribute is picked up by the processing system and generates one of two images for the title.</justification>
-            <examplefig judgement="good" id="z103">
-                <desc></desc>
-                <codeblock id="105">&lt;examplefig judgement="good"&gt;&lt;codeblock&gt;
-&lt;ul&gt;
-&lt;li&gt;Lettuce&lt;/li&gt;
-&lt;li&gt;Onion&lt;/li&gt;
-&lt;li&gt;Tomato&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/codeblock&gt;
-&lt;/examplefig&gt;
-                </codeblock>
-            </examplefig>
-            <examplefig judgement="bad">&lt;examplefig&gt;&lt;codeblock&gt;
-  &lt;task&gt;
-  &lt;title&gt;Turn off the alarm&lt;/title&gt;
-  &lt;steps&gt;
-    &lt;step&gt;
-      &lt;cmd&gt;Click the &lt;uicontrol&gt;Turn off&lt;/uicontrol&gt;
-        button.&lt;/cmd&gt;
-    &lt;/step&gt;
-    &lt;step&gt;
-      &lt;cmd&gt;Enter your code on the dial pad&lt;/cmd&gt;
-    &lt;/step&gt;
-    &lt;/steps&gt;
-    &lt;result&gt;The alarm is off. The system emits a long 
-      beep.&lt;/result&gt;
-&lt;/task&gt;
-&lt;/codeblock&gt;&lt;/examplefig&gt;
-            </examplefig>
+    <abstract id="a0"><shortdesc id="z101">The examplefig element provide examples of what to do and what not to do to support user understanding</shortdesc>.</abstract>
+    <rulesbody id="a1">
+        <rule id="a2">
+            <rule-statement id="a3"/>
         </rule>
     </rulesbody>
 </rules>

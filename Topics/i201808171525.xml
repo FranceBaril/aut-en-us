@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808171525"
-    status="new">
-    <title>&lt;desc&gt;</title>
-    <abstract><shortdesc>Descriptions of the demonstration of rules help the reader understand the example.</shortdesc></abstract>
-    <rulesbody>
-        <rule>
-            <rule-statement>Provide a short description of the example presented in the &lt;codeblock&gt; element.</rule-statement>
-            <justification>Pointing out the relevant piece of information in the sample assists readers to focus on the key factor of the style rule.</justification>
-            <examplefig judgement="good">
-                <desc></desc>
-                <codeblock>&lt;desc&gt;As per best practices, this example uses the &lt;q&gt; element for quotes.&lt;/desc&gt;
-                    &lt;codeblock&gt;&lt;p&gt;Le professeur demanda&#160;:
-                    &lt;q&gt;Quelle est la capitale de l'Australie&#160;?&lt;/q&gt;&lt;/p&gt;&lt;/codeblock&gt;
-                </codeblock>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808171525" status="new">
+    <title id="a0">&lt;desc&gt;</title>
+    <abstract id="a1"><shortdesc id="a2">Descriptions let users know what to look for in the figure or example of an &lt;examplefig&gt;</shortdesc>.</abstract>
+    <rulesbody id="a3">
+        <rule id="a4">
+            <rule-statement id="a5">Pointout the relevant piece of information in the sample.</rule-statement>
+            <justification id="a6">It helps readers to focus on the key factor.</justification>
+            <examplefig id="a7" judgement="good">
+                <desc id="a8"/>
+                <codeblock id="a9">&lt;examplefig&gt;&lt;desc&gt;As per best practices, this example uses the &lt;q&gt; element
+   for quotes.&lt;/desc&gt;
+&lt;codeblock&gt;
+   &lt;p&gt;Le professeur demanda :
+   &lt;q&gt;Quelle est la capitale de l'Australie ?&lt;/q&gt;&lt;/p&gt;
+&lt;/codeblock&gt;&lt;/examplefig&gt;</codeblock>
             </examplefig>
         </rule>
     </rulesbody>

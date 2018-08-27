@@ -1,43 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i2018081171158"
-    status="new">
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i2018081171158" status="new">
     <title id="z200">&lt;rule-statement&gt;</title>
     <abstract id="abstract"><shortdesc id="shortdesc">The rule-statement presents the individual rules associated with an element.</shortdesc></abstract>
-    <rulesbody>
-        <rule>
-            <rule-statement id="z301">Rule statements apply to a specific element.</rule-statement>
-            <justification id="z302">The style guide is organized by element, readers will search the guide using the element names in the title. The reader will expect to find all the relevant rules associated with the element.</justification>
-            <examplefig judgement="good" id="z303">
-                <desc>The rule is specific to the topic.</desc>
-                <codeblock id="z309">
-                    &lt;title&gt;Quotes&gt;
-                    ...
-                    &lt;rule-statement&gt;To quote blocks of text use the long quotes element &lt;lq&gt;.
-                </codeblock>
-            </examplefig>
-            <examplefig judgement="bad" id="z305">
-                <desc id="z307">The rule-statement contains references to multiple items. The reasons for the rule vary according to which element is used; the justification cannot address both issues.</desc>
-                <codeblock id="z308">
-                    &lt;title&gt;Whitespace&lt;/title&gt;
-                    ...
-                    &lt;rule-statement&gt;Do not add any white spaces or special punctuation immediately inside quotation elements.&lt;/rule-statement&gt;
-                </codeblock>
+    <rulesbody id="a0">
+        <rule id="a1">
+            <rule-statement id="a2"><action id="a3">Write rules as direct orders: start with a verb followed by a complement</action>.</rule-statement>
+            <justification id="a4">Rules ensure that users take the correct actions. If they must do something, just tell them to do it.</justification>
+            <examplefig id="a5" judgement="good">
+                <codeblock id="a6">&lt;rule-statement&gt;&lt;action&gt;Include the instruction sheet in every
+shipment&lt;/action&gt;.&lt;/rule-statement&gt;</codeblock>
             </examplefig>
         </rule>
-        <rule>
-            <rule-statement>Use &lt;conref&gt; to share rule statements between elements.</rule-statement>
-            <justification>Because readers use the title of the topic to find rules, generic rules should appear in all relevant topics.</justification>
-            <examplefig judgement="good">
-                <desc></desc>
-                <codeblock></codeblock>
+        <rule id="a7">
+            <rule-statement id="a8">If <if-condition id="a9">a rule applies only under specific conditions</if-condition>, <action id="a10">state the conditions first</action>.</rule-statement>
+            <justification id="a11">Some users take actions as they read. They may read the conditions after they have performed the action.</justification>
+            <examplefig id="a12" judgement="bad">
+                <codeblock id="a13">&lt;rule-statement&gt;&lt;action&gt;Add 1 cup of water&lt;/action&gt;, 
+&lt;if-condition&gt;if the indicator is in the yellow 
+zone&lt;/if-condition&gt;.&lt;/rule-statement&gt;</codeblock>
             </examplefig>
-            <examplefig judgement="bad" id="z7">
-                <desc id="z78">The inclusion of multiple use-cases means that this &lt;rule-statement&gt; is not found in all the right places and can be missed by busy readers.</desc>
-                <codeblock id="z8">
-                    &lt;rule-statement&gt;When titles in concepts, reference, or troubleshooting topics can be expressed as acronyms, reference their glossentry.&lt;/rule-statement&gt;
-                </codeblock>
+            <examplefig id="a14" judgement="good">
+                <codeblock id="a15">&lt;rule-statement&gt;&lt;if-condition&gt;If there is less than 1 meter of snow&lt;/if-condition&gt;, &lt;action&gt;turn off the heavy snow settings&lt;/action&gt;.&lt;/rule-statement&gt;</codeblock>
             </examplefig>
         </rule>
+        <rule id="a16">
+            <rule-statement id="a17">When <if-condition id="a18">actions must not be taken</if-condition>, <action id="a19">start the action part of the rule with a negative</action>.</rule-statement>
+            <examplefig id="a20" judgement="good">
+                <codeblock id="a21">&lt;rule-statement&gt;&lt;action&gt;Do not drink the 
+water&lt;/action&gt;.&lt;/rule-statement&gt;</codeblock>
+            </examplefig>
+            <examplefig id="a22" judgement="good">
+                <codeblock id="a23">&lt;rule-statement&gt;&lt;if-condition&gt;If the indicator is
+red&lt;/if-condition&gt;, &lt;action&gt;do not drink the 
+water&lt;/action&gt;.&lt;/rule-statement&gt;</codeblock>
+            </examplefig>
+        </rule>
+       
     </rulesbody>
 </rules>
