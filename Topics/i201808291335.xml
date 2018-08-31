@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808291335" status="new">
+   <title>Present tense</title>
+   <abstract><shortdesc>The simple present tense keeps the actor and action clear</shortdesc>. The simple present tense in technical content indicates established facts and knowledge.</abstract>
+   <rulesbody>
+      <rule>
+         <rule-statement>Use the simple present tense for a prescribed action, regardless of when it happens.</rule-statement>
+         <justification>The reader encounters the instruction as they work on the process described.</justification>
+         <examplefig judgement="good" id="z11">
+            <desc></desc>
+            <codeblock>
+               <ul>
+                  <li>&lt;rule-statement&gt;Include white spaces outside of inline elements.&lt;/rule-statement&gt;</li>
+                  <li>&lt;rule-statement&gt;Use the entity for non-breaking spaces (&amp;#160;) for spaces before or after punctuation.&lt;/rule-statement&gt;</li>
+                  <li>&lt;rule-statement&gt;Include punctuation in block elements, not inline elements.&lt;/rule-statement&gt;</li>
+               </ul>
+            </codeblock>
+         </examplefig>
+      </rule>
+      <rule>
+         <rule-statement>Use the simple present tense for statements of fact.</rule-statement>
+         <justification/>
+         <examplefig judgement="good" id="z12">
+            <desc/>
+            <codeblock>
+               <ul>
+                  <li>&lt;stepresult&gt;The link resolves according to the processing rules.&lt;/stepresult&gt;</li>
+                  <li>&lt;info&gt;A broken link leads to a page with an error message.&lt;/info&gt;</li>
+                  <li>&lt;stepresult&gt;The contents of &lt;xref&gt; defines the target.&lt;/stepresult&gt;</li>
+               </ul>
+            </codeblock>
+         </examplefig>
+      </rule>
+      <rule>
+         <rule-statement id="z14">Use the simple present tense to explain graphical presentations of data, such as tables and figures.</rule-statement>
+      </rule>
+   </rulesbody>
+</rules>

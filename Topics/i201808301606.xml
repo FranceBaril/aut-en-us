@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808301606" status="new">
+   <title>Negatives in instructions</title>
+   <abstract><shortdesc>Negatives in instructions can confuse a reader</shortdesc>.</abstract>
+   <rule-statement>Avoid telling readers what not to do.</rule-statement>
+   <justification>Readers react to the verb and may, therefore, perform the proscribed action.</justification>
+   <examplefig judgement="good">
+      <desc></desc>
+      <codeblock>
+         <ul>
+            <li>&lt;cmd&gt;Delete this part of the copied code.&lt;/cmd&gt;</li>
+            <li>&lt;cmd&gt;Add users with signed approvals.&lt;/cmd&gt;</li>
+         </ul>
+      </codeblock>
+   </examplefig>
+   <examplefig judgement="bad">
+      <desc></desc>
+      <codeblock>
+         <ul>
+            <li>&lt;cmd&gt;Do not use the entire copied code.&lt;/cmd&gt;</li>
+            <li>&lt;cmd&gt;Do not add new users without signed approvals.&lt;/cmd&gt;</li>
+         </ul>
+      </codeblock>
+   </examplefig>
+</rules>
+

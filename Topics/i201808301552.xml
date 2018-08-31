@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808301552" status="new">
+   <title>Infinitives</title>
+   <abstract><shortdesc>The to-infinitive form of the verb is preferred over a gerund</shortdesc>. Do not use gerunds in titles or instructions.</abstract>
+   <rule>
+      <rule-statement>Start titles and instructions with the to-infinite form of the verb.</rule-statement>
+      <justification conref="i20170521114732719#a11" outputclass="dita-to-text"/>
+      <examplefig conref="i20170521114732719#a21" outputclass="dita-to-text"/>
+      <examplefig conref="i20170521114732719#a12" outputclass="dita-to-text"/>
+   </rule>
+</rules>

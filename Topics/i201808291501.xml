@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808291501" status="new">
+   <title>Point of view</title>
+   <abstract><shortdesc>The point of view makes the actor clear for instructions and facts</shortdesc>.</abstract>
+   <rulesbody>
+      <rule>
+         <rule-statement>Write instuctions in the 2nd person.</rule-statement>
+         <justification>This point of view addresses the reader directly.</justification>
+         <examplefig conref="i201808291335#a11" outputclass="dita-to-text"/>
+      </rule>
+      <rule>
+         <rule-statement>Write factual information in the 3rd person.</rule-statement>
+         <justification></justification>
+         <examplefig conref="i201808291335#a12" outputclass="dita-to-text"/>
+      </rule>
+   </rulesbody>
+</rules>

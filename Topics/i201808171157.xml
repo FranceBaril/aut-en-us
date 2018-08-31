@@ -7,13 +7,6 @@
             <rule-statement id="a2">Include a &lt;shortdesc&gt; element within the abstract.</rule-statement>
             <justification id="a3">The &lt;shortdesc&gt; element is useful in contexts where space isn't sufficient for a full abstract. For example, in slide shows or to provide information on links' roll overs.</justification>
         </rule>
-        <rule id="a10">
-            <rule-statement id="a11" conref="i20170521114759206#a6" outputclass="dita-to-text"/>
-            <!-- topic: shortdesc in tasks -->
-            <examplefig id="z325" judgement="bad">
-                <codeblock id="a12" conref="i20170521114759206#a9" outputclass="dita-to-text"/>
-                <!-- topic: shortdesc in tasks -->
-            </examplefig>
-        </rule>
+        <rule id="a10" conref="i20170521114759206#a6" outputclass="dita-to-text"/>
     </rulesbody>
 </rules>

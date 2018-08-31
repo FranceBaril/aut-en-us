@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808301220" status="new">
+   <title>Sentence structure</title>
+   <abstract><shortdesc>A simply sentence structure increases readability</shortdesc>.</abstract>
+   <rule>
+      <rule-statement>Avoid wordy constructions.</rule-statement>
+      <justification></justification>
+      <examplefig judgement="good">
+         <desc></desc>
+         <codeblock>
+            <ul>
+               <li>&lt;cmd&gt;Use one of these options to open the form.&lt;/cmd&gt;
+                  &lt;info&gt;
+                  &lt;table&gt;
+                  &lt;title&gt;Table of options&lt;/title&gt;
+                  ...</li>
+               <li>&lt;cmd&gt;Select &lt;uicontrol&gt;New Template&lt;/uicontrol&gt; from the &lt;uicontrol&gt;Options&gt;&lt;/cmd&gt; menu.</li>
+               <li>&lt;cmd&gt;Click &lt;uicontrol&gt;Save&lt;/uicontrol&gt;.&lt;/cmd&gt;</li>
+               <li>&lt;title&gt;Add a user&lt;/title&gt;</li>
+            </ul>
+         </codeblock>
+      </examplefig>
+      <examplefig judgement="bad">
+         <desc></desc>
+         <codeblock>
+            <ul>
+               <li>&lt;cmd&gt;Use one of a number of the available options to open the form for completion; for example, use &lt;menu-cascade&gt;&lt;uicontrol&gt;File&lt;/uicontrol&gt;&lt;uicontrol&gt;Options&lt;/uicontrol&gt;&lt;uicontrol&gt;New Template&lt;/uicontrol&gt; or choose &lt;uicontrol&gt;New&lt;/uicontrol&gt; from the &lt;uicontrol&gt;Template&lt;/uicontrol&gt; menu.&lt;/cmd&gt;</li>
+               <li>&lt;cmd&gt;When completing the form you'll be expected to enter the values from the processed application form submitted by the candidate.&lt;/cmd&gt;</li>
+               <li>&lt;cmd&gt;To save the changes you've made to the document when the option is displayed, click &lt;uicontrol&gt;Save&lt;/uicontrol&gt;.&lt;/cmd&gt;</li>
+               <li>&lt;title&gt;Creating a new user profile&lt;/title&gt;</li>
+            </ul>
+         </codeblock>
+      </examplefig>
+   </rule>
+   <rule conref="i201808291302#z23" outputclass="dita-to-text"/>
+   <rule>
+      <rule-statement>Keep sentences short.</rule-statement>
+      <justification>The reader's attention is split between the instructions and the activity. Shorter sentences get to the point and deliver concrete instructions/information. Complex information is pulled out and presented in a table or other graphic display.</justification>
+      <examplefig judgement="good">
+         <desc></desc>
+         <codeblock conref="i20170518114326585#a24"/>
+      </examplefig>
+      <examplefig judgement="bad">
+         <desc></desc>
+         <codeblock>
+            <ul>
+               <li>&lt;cmd&gt;Choose &lt;uicontrol&gt;New&lt;/uicontrol&gt; from the &lt;uicontrol&gt;Template&lt;/uicontrol&gt; menu.&lt;/cmd&gt;</li>
+               <li>&lt;cmd&gt;Create a template from the project and select relative dates that then make your template adjustable depending on the start date of any project based on it.&lt;/cmd&gt;</li>
+            </ul>
+         </codeblock>
+      </examplefig>
+   </rule>
+</rules>

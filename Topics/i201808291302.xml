@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:ditabase.xsd" id="i201808291302" status="new">
+   <title>Active voice</title>
+   <abstract><shortdesc>Active voice keeps the actor and actions clear</shortdesc>. To write in the active voice, compose sentences where the subject of the sentence performs the action of the verb. The active voice identifies the actor for each action. When users read instructions written with active voice, they find it is easier to understand the instructions and to know who does what, where, when, and how. Active voice is dynamic and interesting to read; it keeps the reader's attention. Active voice is the standard for technical writing.</abstract>
+   <rulesbody>
+      <rule>
+         <rule-statement>Use the active voice for all instruction titles.</rule-statement>
+         <justification></justification>
+         <examplefig conref="i20170521114732719#a21" outputclass="dita-to-text"/>
+      </rule>
+      <rule>
+         <rule-statement id="z23">Use the active voice for all instructions.</rule-statement>
+         <justification></justification>
+         <examplefig judgement="good">
+            <desc></desc>
+            <codeblock>
+               <ul>
+                  <li>&lt;cmd&gt;Select item x.&lt;/cmd&gt;</li>
+                  <li>&lt;cmd&gt;Click &lt;uicontrol&gt;Save&lt;/uicontrol&gt;.&lt;/cmd&gt;</li>
+                  <li>&lt;cmd&gt;Fill the form and click &lt;uicontrol&gt;Ok&lt;/uicontrol&gt;.&lt;/cmd&gt;</li>
+                  <li>&lt;cmd&gt;In field X, enter your X.&lt;/cmd&gt;</li>
+               </ul>
+            </codeblock>
+         </examplefig>
+         <examplefig judgement="bad">
+            <desc></desc>
+            <codeblock>
+               <ul>
+                  <li>&lt;info&gt;The X value is determined by the value in field X.&lt;/info&gt;</li>
+                  <li>&lt;cmd&gt;Opening a file makes X happen.&lt;/cmd&gt;</li>
+                  <li>&lt;info&gt;Signals are distorted by a broken antenna.&lt;/info&gt;</li>
+                  <li>&lt;info&gt;The &lt;uicontrol&gt;Save&lt;/uicontrol&gt; option is the first item on the list.&lt;/info&gt;</li>
+                  <li>&lt;info&gt;The options for field X are listed in the table below.&lt;/info&gt;</li>
+               </ul>
+            </codeblock>
+         </examplefig>
+      </rule>
+   </rulesbody>
+</rules>
